@@ -1,0 +1,3527 @@
+{
+  "version": 1,
+  "lastUpdated": "2025-12-06",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Science",
+      "icon": "microscope",
+      "color": "#8B5CF6",
+      "questions": [
+        {
+          "id": "SCI_001",
+          "text": "What planet is known as the Red Planet?",
+          "options": [
+            { "id": "A", "text": "Venus" },
+            { "id": "B", "text": "Mars" },
+            { "id": "C", "text": "Jupiter" },
+            { "id": "D", "text": "Saturn" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Mars appears red due to iron oxide (rust) on its surface.",
+          "tags": ["astronomy", "planets"]
+        },
+        {
+          "id": "SCI_002",
+          "text": "What is the chemical symbol for gold?",
+          "options": [
+            { "id": "A", "text": "Go" },
+            { "id": "B", "text": "Gd" },
+            { "id": "C", "text": "Au" },
+            { "id": "D", "text": "Ag" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Au comes from the Latin word 'aurum' meaning gold.",
+          "tags": ["chemistry", "elements"]
+        },
+        {
+          "id": "SCI_003",
+          "text": "What is the speed of light in vacuum?",
+          "options": [
+            { "id": "A", "text": "299,792,458 m/s" },
+            { "id": "B", "text": "150,000,000 m/s" },
+            { "id": "C", "text": "450,000,000 m/s" },
+            { "id": "D", "text": "100,000,000 m/s" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "The speed of light is approximately 300,000 km/s or 299,792,458 m/s.",
+          "tags": ["physics", "constants"]
+        },
+        {
+          "id": "SCI_004",
+          "text": "What is DNA short for?",
+          "options": [
+            { "id": "A", "text": "Deoxyribonucleic Acid" },
+            { "id": "B", "text": "Dinitrogen Acid" },
+            { "id": "C", "text": "Dynamic Nuclear Atom" },
+            { "id": "D", "text": "Dual Nitrogen Alloy" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "DNA stands for Deoxyribonucleic Acid, which carries genetic information.",
+          "tags": ["biology", "genetics"]
+        },
+        {
+          "id": "SCI_005",
+          "text": "At what temperature does water boil at sea level?",
+          "options": [
+            { "id": "A", "text": "90°C" },
+            { "id": "B", "text": "100°C" },
+            { "id": "C", "text": "110°C" },
+            { "id": "D", "text": "212°C" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Water boils at 100°C (212°F) at standard atmospheric pressure.",
+          "tags": ["chemistry", "temperature"]
+        },
+        {
+          "id": "SCI_006",
+          "text": "What is the most abundant gas in Earth's atmosphere?",
+          "options": [
+            { "id": "A", "text": "Oxygen" },
+            { "id": "B", "text": "Carbon Dioxide" },
+            { "id": "C", "text": "Nitrogen" },
+            { "id": "D", "text": "Argon" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Nitrogen makes up about 78% of Earth's atmosphere.",
+          "tags": ["atmosphere", "chemistry"]
+        },
+        {
+          "id": "SCI_007",
+          "text": "Which organ in the human body is responsible for producing insulin?",
+          "options": [
+            { "id": "A", "text": "Liver" },
+            { "id": "B", "text": "Pancreas" },
+            { "id": "C", "text": "Kidney" },
+            { "id": "D", "text": "Thyroid" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The pancreas produces insulin to regulate blood sugar levels.",
+          "tags": ["biology", "human-body"]
+        },
+        {
+          "id": "SCI_008",
+          "text": "What is the hardest natural substance on Earth?",
+          "options": [
+            { "id": "A", "text": "Gold" },
+            { "id": "B", "text": "Iron" },
+            { "id": "C", "text": "Diamond" },
+            { "id": "D", "text": "Quartz" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Diamond scores 10 on the Mohs hardness scale.",
+          "tags": ["materials", "geology"]
+        },
+        {
+          "id": "SCI_009",
+          "text": "Who developed the theory of evolution by natural selection?",
+          "options": [
+            { "id": "A", "text": "Gregor Mendel" },
+            { "id": "B", "text": "Charles Darwin" },
+            { "id": "C", "text": "Louis Pasteur" },
+            { "id": "D", "text": "Albert Einstein" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Charles Darwin published 'On the Origin of Species' in 1859.",
+          "tags": ["biology", "evolution"]
+        },
+        {
+          "id": "SCI_010",
+          "text": "What is the primary source of energy for Earth’s climate system?",
+          "options": [
+            { "id": "A", "text": "The Moon" },
+            { "id": "B", "text": "The Sun" },
+            { "id": "C", "text": "Geothermal heat" },
+            { "id": "D", "text": "Ocean currents" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Sun provides nearly all the energy that drives weather and climate.",
+          "tags": ["earth-science", "energy"]
+        },
+        {
+          "id": "SCI_011",
+          "text": "What is the powerhouse of the cell?",
+          "options": [
+            { "id": "A", "text": "Nucleus" },
+            { "id": "B", "text": "Ribosome" },
+            { "id": "C", "text": "Mitochondria" },
+            { "id": "D", "text": "Endoplasmic Reticulum" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Mitochondria generate most of the cell’s ATP through cellular respiration.",
+          "tags": ["biology", "cell"]
+        },
+        {
+          "id": "SCI_012",
+          "text": "Which planet has the most moons?",
+          "options": [
+            { "id": "A", "text": "Jupiter" },
+            { "id": "B", "text": "Saturn" },
+            { "id": "C", "text": "Uranus" },
+            { "id": "D", "text": "Neptune" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "As of 2025, Saturn has 145 confirmed moons, surpassing Jupiter.",
+          "tags": ["astronomy", "planets"]
+        },
+        {
+          "id": "SCI_013",
+          "text": "What is the pH of pure water?",
+          "options": [
+            { "id": "A", "text": "0" },
+            { "id": "B", "text": "7" },
+            { "id": "C", "text": "14" },
+            { "id": "D", "text": "10" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Pure water is neutral with a pH of 7.",
+          "tags": ["chemistry", "acids-bases"]
+        },
+        {
+          "id": "SCI_014",
+          "text": "Who proposed the theory of relativity?",
+          "options": [
+            { "id": "A", "text": "Isaac Newton" },
+            { "id": "B", "text": "Niels Bohr" },
+            { "id": "C", "text": "Albert Einstein" },
+            { "id": "D", "text": "Stephen Hawking" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Albert Einstein published the special and general theories of relativity.",
+          "tags": ["physics", "scientists"]
+        },
+        {
+          "id": "SCI_015",
+          "text": "What is the largest organ in the human body?",
+          "options": [
+            { "id": "A", "text": "Liver" },
+            { "id": "B", "text": "Brain" },
+            { "id": "C", "text": "Skin" },
+            { "id": "D", "text": "Lungs" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "The skin is the body’s largest organ by surface area and weight.",
+          "tags": ["biology", "human-body"]
+        },
+        {
+          "id": "SCI_016",
+          "text": "Which blood type is known as the universal donor?",
+          "options": [
+            { "id": "A", "text": "A+" },
+            { "id": "B", "text": "AB-" },
+            { "id": "C", "text": "O-" },
+            { "id": "D", "text": "B-" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "O-negative blood can be given to anyone regardless of their blood type.",
+          "tags": ["biology", "blood"]
+        },
+        {
+          "id": "SCI_017",
+          "text": "What gas do plants absorb from the atmosphere?",
+          "options": [
+            { "id": "A", "text": "Oxygen" },
+            { "id": "B", "text": "Nitrogen" },
+            { "id": "C", "text": "Carbon Dioxide" },
+            { "id": "D", "text": "Argon" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Plants take in CO₂ during photosynthesis to produce glucose and oxygen.",
+          "tags": ["biology", "photosynthesis"]
+        },
+        {
+          "id": "SCI_018",
+          "text": "What is the atomic number of carbon?",
+          "options": [
+            { "id": "A", "text": "6" },
+            { "id": "B", "text": "8" },
+            { "id": "C", "text": "12" },
+            { "id": "D", "text": "14" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Carbon has 6 protons, hence atomic number 6.",
+          "tags": ["chemistry", "elements"]
+        },
+        {
+          "id": "SCI_019",
+          "text": "Which scientist discovered penicillin?",
+          "options": [
+            { "id": "A", "text": "Marie Curie" },
+            { "id": "B", "text": "Alexander Fleming" },
+            { "id": "C", "text": "Louis Pasteur" },
+            { "id": "D", "text": "Robert Koch" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Alexander Fleming discovered penicillin in 1928.",
+          "tags": ["biology", "medicine"]
+        },
+        {
+          "id": "SCI_020",
+          "text": "What is the unit of electrical resistance?",
+          "options": [
+            { "id": "A", "text": "Volt" },
+            { "id": "B", "text": "Ampere" },
+            { "id": "C", "text": "Ohm" },
+            { "id": "D", "text": "Watt" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Resistance is measured in ohms (Ω).",
+          "tags": ["physics", "electricity"]
+        },
+        {
+          "id": "SCI_021",
+          "text": "Which layer of the Earth is made mostly of iron and nickel?",
+          "options": [
+            { "id": "A", "text": "Crust" },
+            { "id": "B", "text": "Mantle" },
+            { "id": "C", "text": "Outer Core" },
+            { "id": "D", "text": "Inner Core" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "MEDIUM",
+          "explanation": "The inner core is solid and composed primarily of iron and nickel.",
+          "tags": ["earth-science", "geology"]
+        },
+        {
+          "id": "SCI_022",
+          "text": "What is the chemical formula for table salt?",
+          "options": [
+            { "id": "A", "text": "NaCl" },
+            { "id": "B", "text": "KCl" },
+            { "id": "C", "text": "CaCO₃" },
+            { "id": "D", "text": "H₂O" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Table salt is sodium chloride (NaCl).",
+          "tags": ["chemistry", "compounds"]
+        },
+        {
+          "id": "SCI_023",
+          "text": "What is the only letter not appearing on the periodic table?",
+          "options": [
+            { "id": "A", "text": "J" },
+            { "id": "B", "text": "Q" },
+            { "id": "C", "text": "X" },
+            { "id": "D", "text": "Z" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "The letter 'J' does not appear in any element symbol.",
+          "tags": ["chemistry", "trivia"]
+        },
+        {
+          "id": "SCI_024",
+          "text": "Which vitamin is produced when skin is exposed to sunlight?",
+          "options": [
+            { "id": "A", "text": "Vitamin A" },
+            { "id": "B", "text": "Vitamin B" },
+            { "id": "C", "text": "Vitamin C" },
+            { "id": "D", "text": "Vitamin D" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "EASY",
+          "explanation": "UVB rays convert 7-dehydrocholesterol in the skin to vitamin D₃.",
+          "tags": ["biology", "vitamins"]
+        },
+        {
+          "id": "SCI_025",
+          "text": "What is the name of our galaxy?",
+          "options": [
+            { "id": "A", "text": "Andromeda" },
+            { "id": "B", "text": "Sombrero" },
+            { "id": "C", "text": "Milky Way" },
+            { "id": "D", "text": "Triangulum" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "We live in the Milky Way, a barred spiral galaxy.",
+          "tags": ["astronomy", "galaxy"]
+        },
+        {
+          "id": "SCI_026",
+          "text": "What force keeps planets in orbit around the Sun?",
+          "options": [
+            { "id": "A", "text": "Magnetism" },
+            { "id": "B", "text": "Friction" },
+            { "id": "C", "text": "Gravity" },
+            { "id": "D", "text": "Electromagnetism" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Gravity is the attractive force between masses.",
+          "tags": ["physics", "astronomy"]
+        },
+        {
+          "id": "SCI_027",
+          "text": "Which element has the highest electronegativity?",
+          "options": [
+            { "id": "A", "text": "Oxygen" },
+            { "id": "B", "text": "Chlorine" },
+            { "id": "C", "text": "Fluorine" },
+            { "id": "D", "text": "Nitrogen" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Fluorine has the highest electronegativity value of 3.98.",
+          "tags": ["chemistry", "periodic-table"]
+        },
+        {
+          "id": "SCI_028",
+          "text": "What is the main gas responsible for the greenhouse effect?",
+          "options": [
+            { "id": "A", "text": "Oxygen" },
+            { "id": "B", "text": "Nitrogen" },
+            { "id": "C", "text": "Carbon Dioxide" },
+            { "id": "D", "text": "Argon" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "CO₂ traps heat in the atmosphere, contributing most to the greenhouse effect.",
+          "tags": ["earth-science", "climate"]
+        },
+        {
+          "id": "SCI_029",
+          "text": "What is the smallest unit of life?",
+          "options": [
+            { "id": "A", "text": "Atom" },
+            { "id": "B", "text": "Molecule" },
+            { "id": "C", "text": "Cell" },
+            { "id": "D", "text": "Organ" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "The cell is the basic structural and functional unit of all living organisms.",
+          "tags": ["biology", "cell-theory"]
+        },
+        {
+          "id": "SCI_030",
+          "text": "Which planet is closest to the Sun?",
+          "options": [
+            { "id": "A", "text": "Venus" },
+            { "id": "B", "text": "Earth" },
+            { "id": "C", "text": "Mercury" },
+            { "id": "D", "text": "Mars" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Mercury is the innermost planet in the Solar System.",
+          "tags": ["astronomy", "planets"]
+        },
+        {
+          "id": "SCI_031",
+          "text": "What is the boiling point of water in Fahrenheit?",
+          "options": [
+            { "id": "A", "text": "100°F" },
+            { "id": "B", "text": "180°F" },
+            { "id": "C", "text": "212°F" },
+            { "id": "D", "text": "32°F" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Water boils at 212°F at sea level (100°C).",
+          "tags": ["chemistry", "temperature"]
+        },
+        {
+          "id": "SCI_032",
+          "text": "Which scientist discovered radioactivity?",
+          "options": [
+            { "id": "A", "text": "Marie Curie" },
+            { "id": "B", "text": "Henri Becquerel" },
+            { "id": "C", "text": "Ernest Rutherford" },
+            { "id": "D", "text": "Wilhelm Röntgen" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Henri Becquerel discovered radioactivity in 1896; Marie Curie coined the term.",
+          "tags": ["physics", "history"]
+        },
+        {
+          "id": "SCI_033",
+          "text": "What is the most common blood type worldwide?",
+          "options": [
+            { "id": "A", "text": "A+" },
+            { "id": "B", "text": "B+" },
+            { "id": "C", "text": "O+" },
+            { "id": "D", "text": "AB-" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "O-positive is the most common blood type globally.",
+          "tags": ["biology", "blood"]
+        },
+        {
+          "id": "SCI_034",
+          "text": "What is the hardest bone in the human body?",
+          "options": [
+            { "id": "A", "text": "Femur" },
+            { "id": "B", "text": "Skull" },
+            { "id": "C", "text": "Jawbone (Mandible)" },
+            { "id": "D", "text": "Spine" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "The mandible (lower jaw) is the strongest and hardest bone.",
+          "tags": ["biology", "human-body"]
+        },
+        {
+          "id": "SCI_035",
+          "text": "Which gas makes up about 21% of Earth’s atmosphere?",
+          "options": [
+            { "id": "A", "text": "Nitrogen" },
+            { "id": "B", "text": "Oxygen" },
+            { "id": "C", "text": "Carbon Dioxide" },
+            { "id": "D", "text": "Argon" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Oxygen constitutes approximately 21% of the atmosphere.",
+          "tags": ["atmosphere", "chemistry"]
+        },
+        {
+          "id": "SCI_036",
+          "text": "What is the center of an atom called?",
+          "options": [
+            { "id": "A", "text": "Electron" },
+            { "id": "B", "text": "Proton" },
+            { "id": "C", "text": "Nucleus" },
+            { "id": "D", "text": "Neutron" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "The nucleus contains protons and neutrons.",
+          "tags": ["physics", "atoms"]
+        },
+        {
+          "id": "SCI_037",
+          "text": "Which planet is known as the 'Jewel of the Solar System'?",
+          "options": [
+            { "id": "A", "text": "Venus" },
+            { "id": "B", "text": "Saturn" },
+            { "id": "C", "text": "Jupiter" },
+            { "id": "D", "text": "Neptune" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Saturn’s spectacular ring system earned it this nickname.",
+          "tags": ["astronomy", "planets"]
+        },
+        {
+          "id": "SCI_038",
+          "text": "What is the chemical symbol for iron?",
+          "options": [
+            { "id": "A", "text": "Ir" },
+            { "id": "B", "text": "Fe" },
+            { "id": "C", "text": "In" },
+            { "id": "D", "text": "Fr" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Fe comes from the Latin 'ferrum'.",
+          "tags": ["chemistry", "elements"]
+        },
+        {
+          "id": "SCI_039",
+          "text": "Which part of the brain controls balance and coordination?",
+          "options": [
+            { "id": "A", "text": "Cerebrum" },
+            { "id": "B", "text": "Cerebellum" },
+            { "id": "C", "text": "Brainstem" },
+            { "id": "D", "text": "Hypothalamus" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The cerebellum is responsible for motor control and coordination.",
+          "tags": ["biology", "brain"]
+        },
+        {
+          "id": "SCI_040",
+          "text": "What is the freezing point of water in Celsius?",
+          "options": [
+            { "id": "A", "text": "0°C" },
+            { "id": "B", "text": "32°C" },
+            { "id": "C", "text": "-10°C" },
+            { "id": "D", "text": "100°C" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Water freezes at 0°C (32°F) at standard pressure.",
+          "tags": ["chemistry", "temperature"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "History",
+      "icon": "book",
+      "color": "#F59E0B",
+      "questions": [
+        {
+          "id": "HIS_001",
+          "text": "In which year did World War II end?",
+          "options": [
+            { "id": "A", "text": "1943" },
+            { "id": "B", "text": "1944" },
+            { "id": "C", "text": "1945" },
+            { "id": "D", "text": "1946" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "World War II ended in 1945 with the surrender of Japan in September.",
+          "tags": ["world-war", "20th-century"]
+        },
+        {
+          "id": "HIS_002",
+          "text": "Who was the first President of the United States?",
+          "options": [
+            { "id": "A", "text": "Thomas Jefferson" },
+            { "id": "B", "text": "George Washington" },
+            { "id": "C", "text": "John Adams" },
+            { "id": "D", "text": "Benjamin Franklin" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "George Washington served as the first President from 1789 to 1797.",
+          "tags": ["america", "presidents"]
+        },
+        {
+          "id": "HIS_003",
+          "text": "When did the French Revolution begin?",
+          "options": [
+            { "id": "A", "text": "1776" },
+            { "id": "B", "text": "1789" },
+            { "id": "C", "text": "1799" },
+            { "id": "D", "text": "1804" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The French Revolution began in 1789 with the storming of the Bastille.",
+          "tags": ["france", "revolution"]
+        },
+        {
+          "id": "HIS_004",
+          "text": "Who was the last pharaoh of Ancient Egypt?",
+          "options": [
+            { "id": "A", "text": "Tutankhamun" },
+            { "id": "B", "text": "Ramses II" },
+            { "id": "C", "text": "Cleopatra VII" },
+            { "id": "D", "text": "Akhenaten" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Cleopatra VII ruled until 30 BCE when Egypt became a Roman province.",
+          "tags": ["egypt", "ancient-history"]
+        },
+        {
+          "id": "HIS_005",
+          "text": "In which year did the Berlin Wall fall?",
+          "options": [
+            { "id": "A", "text": "1985" },
+            { "id": "B", "text": "1989" },
+            { "id": "C", "text": "1991" },
+            { "id": "D", "text": "1993" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The Berlin Wall fell on November 9, 1989, symbolizing the end of the Cold War.",
+          "tags": ["cold-war", "europe"]
+        },
+        {
+          "id": "HIS_006",
+          "text": "Who led India to independence from British rule?",
+          "options": [
+            { "id": "A", "text": "Jawaharlal Nehru" },
+            { "id": "B", "text": "Mahatma Gandhi" },
+            { "id": "C", "text": "Subhas Chandra Bose" },
+            { "id": "D", "text": "Bhagat Singh" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Mahatma Gandhi led the non-violent independence movement.",
+          "tags": ["india", "independence"]
+        },
+
+        {
+          "id": "HIS_007",
+          "text": "Who was the first Emperor of Rome?",
+          "options": [
+            { "id": "A", "text": "Julius Caesar" },
+            { "id": "B", "text": "Augustus" },
+            { "id": "C", "text": "Nero" },
+            { "id": "D", "text": "Constantine" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Augustus (formerly Octavian) became the first Roman emperor in 27 BCE.",
+          "tags": ["rome", "ancient-history"]
+        },
+        {
+          "id": "HIS_008",
+          "text": "In which year did Christopher Columbus reach the Americas?",
+          "options": [
+            { "id": "A", "text": "1492" },
+            { "id": "B", "text": "1482" },
+            { "id": "C", "text": "1502" },
+            { "id": "D", "text": "1512" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Columbus landed on an island in the Bahamas on October 12, 1492.",
+          "tags": ["exploration", "age-of-discovery"]
+        },
+        {
+          "id": "HIS_009",
+          "text": "Who painted the Mona Lisa?",
+          "options": [
+            { "id": "A", "text": "Michelangelo" },
+            { "id": "B", "text": "Raphael" },
+            { "id": "C", "text": "Leonardo da Vinci" },
+            { "id": "D", "text": "Donatello" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Leonardo da Vinci painted the Mona Lisa between 1503 and 1506.",
+          "tags": ["renaissance", "art"]
+        },
+        {
+          "id": "HIS_010",
+          "text": "Which event started World War I?",
+          "options": [
+            { "id": "A", "text": "Invasion of Poland" },
+            { "id": "B", "text": "Assassination of Archduke Franz Ferdinand" },
+            { "id": "C", "text": "Sinking of Lusitania" },
+            { "id": "D", "text": "Pearl Harbor attack" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The assassination in Sarajevo on June 28, 1914, triggered the war.",
+          "tags": ["world-war", "20th-century"]
+        },
+        {
+          "id": "HIS_011",
+          "text": "Who was the longest-reigning British monarch before Queen Elizabeth II?",
+          "options": [
+            { "id": "A", "text": "Henry VIII" },
+            { "id": "B", "text": "Elizabeth I" },
+            { "id": "C", "text": "Victoria" },
+            { "id": "D", "text": "George III" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Queen Victoria reigned for 63 years and 216 days (1837–1901).",
+          "tags": ["britain", "monarchy"]
+        },
+        {
+          "id": "HIS_012",
+          "text": "In which year did the Titanic sink?",
+          "options": [
+            { "id": "A", "text": "1908" },
+            { "id": "B", "text": "1912" },
+            { "id": "C", "text": "1915" },
+            { "id": "D", "text": "1920" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Titanic sank on April 15, 1912, after hitting an iceberg.",
+          "tags": ["maritime", "20th-century"]
+        },
+        {
+          "id": "HIS_013",
+          "text": "Who wrote the Declaration of Independence?",
+          "options": [
+            { "id": "A", "text": "George Washington" },
+            { "id": "B", "text": "Benjamin Franklin" },
+            { "id": "C", "text": "Thomas Jefferson" },
+            { "id": "D", "text": "John Adams" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Thomas Jefferson was the primary author in 1776.",
+          "tags": ["america", "revolution"]
+        },
+        {
+          "id": "HIS_014",
+          "text": "Which empire was ruled by Genghis Khan?",
+          "options": [
+            { "id": "A", "text": "Ottoman Empire" },
+            { "id": "B", "text": "Roman Empire" },
+            { "id": "C", "text": "Mongol Empire" },
+            { "id": "D", "text": "Persian Empire" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Genghis Khan founded the largest contiguous empire in history.",
+          "tags": ["mongols", "medieval"]
+        },
+        {
+          "id": "HIS_015",
+          "text": "Who was the first man to walk on the Moon?",
+          "options": [
+            { "id": "A", "text": "Buzz Aldrin" },
+            { "id": "B", "text": "Yuri Gagarin" },
+            { "id": "C", "text": "Neil Armstrong" },
+            { "id": "D", "text": "John Glenn" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Neil Armstrong stepped onto the Moon on July 20, 1969.",
+          "tags": ["space", "20th-century"]
+        },
+        {
+          "id": "HIS_016",
+          "text": "Which wall was built by the Romans in Britain?",
+          "options": [
+            { "id": "A", "text": "Great Wall of China" },
+            { "id": "B", "text": "Berlin Wall" },
+            { "id": "C", "text": "Hadrian’s Wall" },
+            { "id": "D", "text": "Western Wall" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Emperor Hadrian ordered its construction in 122 CE to mark the northern frontier.",
+          "tags": ["rome", "britain"]
+        },
+        {
+          "id": "HIS_017",
+          "text": "Who was known as the 'Maid of Orléans'?",
+          "options": [
+            { "id": "A", "text": "Marie Antoinette" },
+            { "id": "B", "text": "Joan of Arc" },
+            { "id": "C", "text": "Catherine de’ Medici" },
+            { "id": "D", "text": "Eleanor of Aquitaine" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Joan of Arc led French forces during the Hundred Years’ War.",
+          "tags": ["france", "medieval"]
+        },
+        {
+          "id": "HIS_018",
+          "text": "In which year did India gain independence?",
+          "options": [
+            { "id": "A", "text": "1945" },
+            { "id": "B", "text": "1947" },
+            { "id": "C", "text": "1950" },
+            { "id": "D", "text": "1960" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "India became independent from Britain on August 15, 1947.",
+          "tags": ["india", "20th-century"]
+        },
+        {
+          "id": "HIS_019",
+          "text": "Who was the first female Prime Minister of the United Kingdom?",
+          "options": [
+            { "id": "A", "text": "Theresa May" },
+            { "id": "B", "text": "Margaret Thatcher" },
+            { "id": "C", "text": "Angela Merkel" },
+            { "id": "D", "text": "Indira Gandhi" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Margaret Thatcher served from 1979 to 1990.",
+          "tags": ["britain", "politics"]
+        },
+        {
+          "id": "HIS_020",
+          "text": "Which city was the ancient capital of the Inca Empire?",
+          "options": [
+            { "id": "A", "text": "Machu Picchu" },
+            { "id": "B", "text": "Cuzco" },
+            { "id": "C", "text": "Lima" },
+            { "id": "D", "text": "Quito" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Cuzco (or Cusco) was the political and religious center of the Inca Empire.",
+          "tags": ["inca", "south-america"]
+        },
+        {
+          "id": "HIS_021",
+          "text": "Who discovered the law of universal gravitation after an apple fell on his head (legend)?",
+          "options": [
+            { "id": "A", "text": "Galileo Galilei" },
+            { "id": "B", "text": "Johannes Kepler" },
+            { "id": "C", "text": "Isaac Newton" },
+            { "id": "D", "text": "Albert Einstein" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Isaac Newton formulated the law of universal gravitation in 1687.",
+          "tags": ["science-history", "enlightenment"]
+        },
+        {
+          "id": "HIS_022",
+          "text": "Which war was fought between the years 1939–1945?",
+          "options": [
+            { "id": "A", "text": "World War I" },
+            { "id": "B", "text": "World War II" },
+            { "id": "C", "text": "Korean War" },
+            { "id": "D", "text": "Vietnam War" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "World War II was the deadliest conflict in human history.",
+          "tags": ["world-war", "20th-century"]
+        },
+        {
+          "id": "HIS_023",
+          "text": "Who was the primary author of the Communist Manifesto?",
+          "options": [
+            { "id": "A", "text": "Vladimir Lenin" },
+            { "id": "B", "text": "Joseph Stalin" },
+            { "id": "C", "text": "Karl Marx" },
+            { "id": "D", "text": "Leon Trotsky" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Karl Marx and Friedrich Engels published it in 1848.",
+          "tags": ["politics", "19th-century"]
+        },
+        {
+          "id": "HIS_024",
+          "text": "Which ancient wonder was located in Alexandria?",
+          "options": [
+            { "id": "A", "text": "Hanging Gardens" },
+            { "id": "B", "text": "Lighthouse of Alexandria" },
+            { "id": "C", "text": "Colossus of Rhodes" },
+            { "id": "D", "text": "Statue of Zeus" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The Pharos (Lighthouse) of Alexandria was one of the Seven Wonders.",
+          "tags": ["ancient-history", "wonders"]
+        },
+        {
+          "id": "HIS_025",
+          "text": "Who led the Salt March in 1930?",
+          "options": [
+            { "id": "A", "text": "Jawaharlal Nehru" },
+            { "id": "B", "text": "Mahatma Gandhi" },
+            { "id": "C", "text": "Bhagat Singh" },
+            { "id": "D", "text": "Subhas Bose" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Gandhi’s 240-mile march protested the British salt tax.",
+          "tags": ["india", "gandhi"]
+        },
+        {
+          "id": "HIS_026",
+          "text": "Which country was unified by Otto von Bismarck in 1871?",
+          "options": [
+            { "id": "A", "text": "Italy" },
+            { "id": "B", "text": "Germany" },
+            { "id": "C", "text": "Austria" },
+            { "id": "D", "text": "Russia" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Bismarck unified the German states into the German Empire.",
+          "tags": ["europe", "19th-century"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Geography",
+      "icon": "globe",
+      "color": "#10B981",
+      "questions": [
+        {
+          "id": "GEO_001",
+          "text": "What is the capital of France?",
+          "options": [
+            { "id": "A", "text": "London" },
+            { "id": "B", "text": "Berlin" },
+            { "id": "C", "text": "Paris" },
+            { "id": "D", "text": "Madrid" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Paris is the capital and most populous city of France.",
+          "tags": ["capitals", "europe"]
+        },
+        {
+          "id": "GEO_002",
+          "text": "Which is the largest ocean on Earth?",
+          "options": [
+            { "id": "A", "text": "Atlantic Ocean" },
+            { "id": "B", "text": "Indian Ocean" },
+            { "id": "C", "text": "Arctic Ocean" },
+            { "id": "D", "text": "Pacific Ocean" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "EASY",
+          "explanation": "The Pacific Ocean covers about 46% of Earth's water surface.",
+          "tags": ["oceans", "geography"]
+        },
+        {
+          "id": "GEO_003",
+          "text": "What is the tallest mountain in the world?",
+          "options": [
+            { "id": "A", "text": "K2" },
+            { "id": "B", "text": "Mount Everest" },
+            { "id": "C", "text": "Kangchenjunga" },
+            { "id": "D", "text": "Lhotse" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Mount Everest stands at 8,848.86 meters (29,031.7 feet) above sea level.",
+          "tags": ["mountains", "records"]
+        },
+        {
+          "id": "GEO_004",
+          "text": "Which country has the longest coastline in the world?",
+          "options": [
+            { "id": "A", "text": "Australia" },
+            { "id": "B", "text": "Indonesia" },
+            { "id": "C", "text": "Canada" },
+            { "id": "D", "text": "Russia" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Canada’s coastline stretches over 202,080 km due to its many islands.",
+          "tags": ["records", "coasts"]
+        },
+        {
+          "id": "GEO_005",
+          "text": "What is the capital of Brazil?",
+          "options": [
+            { "id": "A", "text": "Rio de Janeiro" },
+            { "id": "B", "text": "São Paulo" },
+            { "id": "C", "text": "Brasília" },
+            { "id": "D", "text": "Salvador" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Brasília was purpose-built as the capital and inaugurated in 1960.",
+          "tags": ["capitals", "south-america"]
+        },
+        {
+          "id": "GEO_006",
+          "text": "Which desert is the largest in the world?",
+          "options": [
+            { "id": "A", "text": "Sahara Desert" },
+            { "id": "B", "text": "Gobi Desert" },
+            { "id": "C", "text": "Antarctic Desert" },
+            { "id": "D", "text": "Arabian Desert" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "The Antarctic Desert (polar desert) is larger than the Sahara.",
+          "tags": ["deserts", "records"]
+        },
+        {
+          "id": "GEO_007",
+          "text": "What is the smallest country in the world by land area?",
+          "options": [
+            { "id": "A", "text": "Monaco" },
+            { "id": "B", "text": "San Marino" },
+            { "id": "C", "text": "Vatican City" },
+            { "id": "D", "text": "Liechtenstein" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Vatican City covers just 44 hectares (0.17 sq mi).",
+          "tags": ["records", "countries"]
+        },
+        {
+          "id": "GEO_008",
+          "text": "Which river is the longest in the world?",
+          "options": [
+            { "id": "A", "text": "Amazon" },
+            { "id": "B", "text": "Nile" },
+            { "id": "C", "text": "Yangtze" },
+            { "id": "D", "text": "Mississippi" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Nile River is approximately 6,650 km long.",
+          "tags": ["rivers", "records"]
+        },
+        {
+          "id": "GEO_009",
+          "text": "What is the capital of Japan?",
+          "options": [
+            { "id": "A", "text": "Osaka" },
+            { "id": "B", "text": "Kyoto" },
+            { "id": "C", "text": "Tokyo" },
+            { "id": "D", "text": "Hiroshima" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Tokyo is the world’s most populous metropolitan area.",
+          "tags": ["capitals", "asia"]
+        },
+        {
+          "id": "GEO_010",
+          "text": "Which country is both in Europe and Asia?",
+          "options": [
+            { "id": "A", "text": "Greece" },
+            { "id": "B", "text": "Turkey" },
+            { "id": "C", "text": "Ukraine" },
+            { "id": "D", "text": "Georgia" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Turkey straddles the Bosphorus Strait, with territory on both continents.",
+          "tags": ["transcontinental", "europe-asia"]
+        },
+        {
+          "id": "GEO_011",
+          "text": "What is the largest country by land area?",
+          "options": [
+            { "id": "A", "text": "China" },
+            { "id": "B", "text": "United States" },
+            { "id": "C", "text": "Canada" },
+            { "id": "D", "text": "Russia" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "EASY",
+          "explanation": "Russia covers over 17 million square kilometers.",
+          "tags": ["records", "countries"]
+        },
+        {
+          "id": "GEO_012",
+          "text": "Which sea has no coastline?",
+          "options": [
+            { "id": "A", "text": "Mediterranean Sea" },
+            { "id": "B", "text": "Sargasso Sea" },
+            { "id": "C", "text": "Red Sea" },
+            { "id": "D", "text": "Black Sea" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "The Sargasso Sea is defined by ocean currents, not land borders.",
+          "tags": ["oceans", "unique"]
+        },
+        {
+          "id": "GEO_013",
+          "text": "What is the capital of Australia?",
+          "options": [
+            { "id": "A", "text": "Sydney" },
+            { "id": "B", "text": "Melbourne" },
+            { "id": "C", "text": "Canberra" },
+            { "id": "D", "text": "Brisbane" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Canberra was chosen as a compromise between Sydney and Melbourne.",
+          "tags": ["capitals", "oceania"]
+        },
+        {
+          "id": "GEO_014",
+          "text": "Which continent is the Sahara Desert located in?",
+          "options": [
+            { "id": "A", "text": "Asia" },
+            { "id": "B", "text": "Africa" },
+            { "id": "C", "text": "Australia" },
+            { "id": "D", "text": "South America" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Sahara is the largest hot desert and covers much of North Africa.",
+          "tags": ["deserts", "africa"]
+        },
+        {
+          "id": "GEO_015",
+          "text": "Which country has the most time zones?",
+          "options": [
+            { "id": "A", "text": "Russia" },
+            { "id": "B", "text": "United States" },
+            { "id": "C", "text": "France" },
+            { "id": "D", "text": "China" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "France has 12 time zones due to its overseas territories.",
+          "tags": ["records", "time-zones"]
+        },
+        {
+          "id": "GEO_016",
+          "text": "What is the deepest point in the ocean?",
+          "options": [
+            { "id": "A", "text": "Puerto Rico Trench" },
+            { "id": "B", "text": "Mariana Trench" },
+            { "id": "C", "text": "Java Trench" },
+            { "id": "D", "text": "Tonga Trench" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The Challenger Deep in the Mariana Trench is 10,984 meters deep.",
+          "tags": ["oceans", "records"]
+        },
+        {
+          "id": "GEO_017",
+          "text": "Which African country is known as the 'Rainbow Nation'?",
+          "options": [
+            { "id": "A", "text": "Nigeria" },
+            { "id": "B", "text": "Kenya" },
+            { "id": "C", "text": "South Africa" },
+            { "id": "D", "text": "Egypt" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The term was coined by Desmond Tutu after apartheid ended.",
+          "tags": ["africa", "culture"]
+        },
+        {
+          "id": "GEO_018",
+          "text": "Which country is home to the Amazon Rainforest (largest part)?",
+          "options": [
+            { "id": "A", "text": "Peru" },
+            { "id": "B", "text": "Brazil" },
+            { "id": "C", "text": "Colombia" },
+            { "id": "D", "text": "Venezuela" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "About 60% of the Amazon lies within Brazil.",
+          "tags": ["rainforests", "south-america"]
+        },
+        {
+          "id": "GEO_019",
+          "text": "What is the only continent without an active volcano?",
+          "options": [
+            { "id": "A", "text": "Australia" },
+            { "id": "B", "text": "Antarctica" },
+            { "id": "C", "text": "Africa" },
+            { "id": "D", "text": "Europe" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "HARD",
+          "explanation": "Australia is the only continent with no currently active volcanoes.",
+          "tags": ["volcanoes", "records"]
+        },
+        {
+          "id": "GEO_020",
+          "text": "Which European country has the most lakes?",
+          "options": [
+            { "id": "A", "text": "Sweden" },
+            { "id": "B", "text": "Norway" },
+            { "id": "C", "text": "Finland" },
+            { "id": "D", "text": "Russia" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Finland has approximately 188,000 lakes and is called 'Land of a Thousand Lakes'.",
+          "tags": ["europe", "lakes"]
+        },
+        {
+          "id": "GEO_021",
+          "text": "Which city is located on two continents?",
+          "options": [
+            { "id": "A", "text": "Istanbul" },
+            { "id": "B", "text": "Moscow" },
+            { "id": "C", "text": "Cairo" },
+            { "id": "D", "text": "Dubai" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Istanbul straddles Europe and Asia across the Bosphorus.",
+          "tags": ["cities", "transcontinental"]
+        },
+        {
+          "id": "GEO_022",
+          "text": "What is the capital of Egypt?",
+          "options": [
+            { "id": "A", "text": "Alexandria" },
+            { "id": "B", "text": "Giza" },
+            { "id": "C", "text": "Cairo" },
+            { "id": "D", "text": "Luxor" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Cairo is one of the largest cities in Africa and the Arab world.",
+          "tags": ["capitals", "africa"]
+        },
+        {
+          "id": "GEO_023",
+          "text": "Which country has the most islands in the world?",
+          "options": [
+            { "id": "A", "text": "Indonesia" },
+            { "id": "B", "text": "Philippines" },
+            { "id": "C", "text": "Sweden" },
+            { "id": "D", "text": "Norway" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Sweden has over 267,000 islands, mostly small and uninhabited.",
+          "tags": ["records", "islands"]
+        },
+        {
+          "id": "GEO_024",
+          "text": "Which mountain range separates Europe from Asia?",
+          "options": [
+            { "id": "A", "text": "Alps" },
+            { "id": "B", "text": "Himalayas" },
+            { "id": "C", "text": "Ural Mountains" },
+            { "id": "D", "text": "Andes" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The Ural Mountains form the conventional boundary between the two continents.",
+          "tags": ["mountains", "boundaries"]
+        },
+        {
+          "id": "GEO_025",
+          "text": "Which is the hottest continent on Earth?",
+          "options": [
+            { "id": "A", "text": "Asia" },
+            { "id": "B", "text": "Africa" },
+            { "id": "C", "text": "Australia" },
+            { "id": "D", "text": "South America" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Africa contains the hottest consistently recorded places (e.g., Sahara).",
+          "tags": ["climate", "continents"]
+        },
+        {
+          "id": "GEO_026",
+          "text": "What is the capital of Canada?",
+          "options": [
+            { "id": "A", "text": "Toronto" },
+            { "id": "B", "text": "Vancouver" },
+            { "id": "C", "text": "Ottawa" },
+            { "id": "D", "text": "Montreal" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Ottawa is the political capital of Canada.",
+          "tags": ["capitals", "north-america"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Technology",
+      "icon": "computer",
+      "color": "#06B6D4",
+      "questions": [
+        {
+          "id": "TECH_001",
+          "text": "Who is credited with inventing the World Wide Web?",
+          "options": [
+            { "id": "A", "text": "Bill Gates" },
+            { "id": "B", "text": "Steve Jobs" },
+            { "id": "C", "text": "Tim Berners-Lee" },
+            { "id": "D", "text": "Mark Zuckerberg" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 at CERN.",
+          "tags": ["internet", "inventors"]
+        },
+        {
+          "id": "TECH_002",
+          "text": "What does CPU stand for?",
+          "options": [
+            { "id": "A", "text": "Central Processing Unit" },
+            { "id": "B", "text": "Computer Personal Unit" },
+            { "id": "C", "text": "Central Program Utility" },
+            { "id": "D", "text": "Central Processor Unity" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "CPU stands for Central Processing Unit, the brain of a computer.",
+          "tags": ["computers", "hardware"]
+        },
+        {
+          "id": "TECH_003",
+          "text": "In what year was the first iPhone released?",
+          "options": [
+            { "id": "A", "text": "2005" },
+            { "id": "B", "text": "2007" },
+            { "id": "C", "text": "2009" },
+            { "id": "D", "text": "2010" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Apple released the first iPhone on June 29, 2007.",
+          "tags": ["apple", "smartphones"]
+        },
+        {
+          "id": "TECH_004",
+          "text": "What does 'Wi-Fi' stand for?",
+          "options": [
+            { "id": "A", "text": "Wireless Fiber" },
+            { "id": "B", "text": "Wireless Fidelity" },
+            { "id": "C", "text": "Wired Firewall" },
+            { "id": "D", "text": "It doesn't stand for anything" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "MEDIUM",
+          "explanation": "'Wi-Fi' is a trademark name and was never meant to be an acronym.",
+          "tags": ["networking", "myths"]
+        },
+        {
+          "id": "TECH_005",
+          "text": "Which company created the Android operating system?",
+          "options": [
+            { "id": "A", "text": "Apple" },
+            { "id": "B", "text": "Microsoft" },
+            { "id": "C", "text": "Google" },
+            { "id": "D", "text": "Samsung" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Google acquired Android Inc. in 2005 and released it in 2008.",
+          "tags": ["mobile", "google"]
+        },
+        {
+          "id": "TECH_006",
+          "text": "What does USB stand for?",
+          "options": [
+            { "id": "A", "text": "Universal Serial Bus" },
+            { "id": "B", "text": "Ultra Speed Bandwidth" },
+            { "id": "C", "text": "Unified System Backup" },
+            { "id": "D", "text": "Universal System Board" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "USB is a standard for connecting devices and transferring data.",
+          "tags": ["hardware", "connectivity"]
+        },
+        {
+          "id": "TECH_007",
+          "text": "What does 'HTTP' stand for?",
+          "options": [
+            { "id": "A", "text": "HyperText Transfer Protocol" },
+            { "id": "B", "text": "High Transfer Text Protocol" },
+            { "id": "C", "text": "Hyper Transfer Text Process" },
+            { "id": "D", "text": "Host Text Transfer Protocol" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "HTTP is the foundation of data communication on the World Wide Web.",
+          "tags": ["internet", "protocols"]
+        },
+        {
+          "id": "TECH_008",
+          "text": "Who founded Microsoft?",
+          "options": [
+            { "id": "A", "text": "Steve Jobs & Steve Wozniak" },
+            { "id": "B", "text": "Larry Page & Sergey Brin" },
+            { "id": "C", "text": "Bill Gates & Paul Allen" },
+            { "id": "D", "text": "Mark Zuckerberg" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Bill Gates and Paul Allen founded Microsoft on April 4, 1975.",
+          "tags": ["companies", "microsoft"]
+        },
+        {
+          "id": "TECH_009",
+          "text": "What does 'GPU' stand for?",
+          "options": [
+            { "id": "A", "text": "General Processing Unit" },
+            { "id": "B", "text": "Graphics Processing Unit" },
+            { "id": "C", "text": "Global Processing Unit" },
+            { "id": "D", "text": "Gaming Processor Unit" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "GPU handles rendering images, videos, and animations.",
+          "tags": ["hardware", "graphics"]
+        },
+        {
+          "id": "TECH_010",
+          "text": "Which programming language was created by Guido van Rossum?",
+          "options": [
+            { "id": "A", "text": "Java" },
+            { "id": "B", "text": "Python" },
+            { "id": "C", "text": "C++" },
+            { "id": "D", "text": "Ruby" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Python was released in 1991 and is known for its readability.",
+          "tags": ["programming", "languages"]
+        },
+        {
+          "id": "TECH_011",
+          "text": "What does 'AI' stand for?",
+          "options": [
+            { "id": "A", "text": "Automated Intelligence" },
+            { "id": "B", "text": "Artificial Intelligence" },
+            { "id": "C", "text": "Advanced Integration" },
+            { "id": "D", "text": "Algorithmic Interface" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Artificial Intelligence refers to machines simulating human intelligence.",
+          "tags": ["ai", "basics"]
+        },
+        {
+          "id": "TECH_012",
+          "text": "In what year was the first email sent?",
+          "options": [
+            { "id": "A", "text": "1969" },
+            { "id": "B", "text": "1971" },
+            { "id": "C", "text": "1975" },
+            { "id": "D", "text": "1980" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Ray Tomlinson sent the first networked email in 1971.",
+          "tags": ["internet", "history"]
+        },
+        {
+          "id": "TECH_013",
+          "text": "What does 'RAM' stand for?",
+          "options": [
+            { "id": "A", "text": "Read Access Memory" },
+            { "id": "B", "text": "Random Access Memory" },
+            { "id": "C", "text": "Run Access Memory" },
+            { "id": "D", "text": "Rapid Action Memory" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "RAM is volatile memory used for temporary data storage.",
+          "tags": ["hardware", "memory"]
+        },
+        {
+          "id": "TECH_014",
+          "text": "Which company created the first commercially successful personal computer (Apple II)?",
+          "options": [
+            { "id": "A", "text": "IBM" },
+            { "id": "B", "text": "Microsoft" },
+            { "id": "C", "text": "Apple" },
+            { "id": "D", "text": "Commodore" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The Apple II, released in 1977, was a huge success.",
+          "tags": ["apple", "history"]
+        },
+        {
+          "id": "TECH_015",
+          "text": "What does 'URL' stand for?",
+          "options": [
+            { "id": "A", "text": "Universal Resource Link" },
+            { "id": "B", "text": "Uniform Resource Locator" },
+            { "id": "C", "text": "Universal Reference Link" },
+            { "id": "D", "text": "User Resource Link" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "URL is the address used to locate resources on the web.",
+          "tags": ["internet", "basics"]
+        },
+        {
+          "id": "TECH_016",
+          "text": "Who is known as the father of the computer?",
+          "options": [
+            { "id": "A", "text": "Alan Turing" },
+            { "id": "B", "text": "Charles Babbage" },
+            { "id": "C", "text": "John von Neumann" },
+            { "id": "D", "text": "Bill Gates" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Charles Babbage designed the Analytical Engine in the 1830s.",
+          "tags": ["history", "computing"]
+        },
+        {
+          "id": "TECH_017",
+          "text": "What does 'VPN' stand for?",
+          "options": [
+            { "id": "A", "text": "Virtual Private Network" },
+            { "id": "B", "text": "Very Private Network" },
+            { "id": "C", "text": "Virtual Public Network" },
+            { "id": "D", "text": "Verified Private Node" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "VPNs create secure connections over the internet.",
+          "tags": ["networking", "security"]
+        },
+        {
+          "id": "TECH_018",
+          "text": "Which was the first search engine on the internet?",
+          "options": [
+            { "id": "A", "text": "Google" },
+            { "id": "B", "text": "Yahoo" },
+            { "id": "C", "text": "Archie" },
+            { "id": "D", "text": "AltaVista" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Archie, launched in 1990, was the first search engine.",
+          "tags": ["internet", "history"]
+        },
+        {
+          "id": "TECH_019",
+          "text": "What does 'OLED' stand for in display technology?",
+          "options": [
+            { "id": "A", "text": "Organic Light Emitting Diode" },
+            { "id": "B", "text": "Optical Light Emitting Display" },
+            { "id": "C", "text": "Original Light Emitting Device" },
+            { "id": "D", "text": "Organic Luminescent Display" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "OLED displays produce light when electricity is applied.",
+          "tags": ["hardware", "displays"]
+        },
+        {
+          "id": "TECH_020",
+          "text": "Who co-founded Apple with Steve Jobs?",
+          "options": [
+            { "id": "A", "text": "Bill Gates" },
+            { "id": "B", "text": "Steve Wozniak" },
+            { "id": "C", "text": "Ronald Wayne" },
+            { "id": "D", "text": "Tim Cook" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Steve Wozniak designed the Apple I and Apple II.",
+          "tags": ["apple", "founders"]
+        },
+        {
+          "id": "TECH_021",
+          "text": "What does 'SSD' stand for?",
+          "options": [
+            { "id": "A", "text": "Solid State Drive" },
+            { "id": "B", "text": "Super Speed Disk" },
+            { "id": "C", "text": "Static Storage Device" },
+            { "id": "D", "text": "System Storage Drive" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "SSDs use flash memory and are faster than traditional HDDs.",
+          "tags": ["hardware", "storage"]
+        },
+        {
+          "id": "TECH_022",
+          "text": "Which company developed the Java programming language?",
+          "options": [
+            { "id": "A", "text": "Microsoft" },
+            { "id": "B", "text": "Sun Microsystems" },
+            { "id": "C", "text": "Apple" },
+            { "id": "D", "text": "Google" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Java was released by Sun Microsystems in 1995.",
+          "tags": ["programming", "java"]
+        },
+        {
+          "id": "TECH_023",
+          "text": "What does 'HTML' stand for?",
+          "options": [
+            { "id": "A", "text": "HyperText Markup Language" },
+            { "id": "B", "text": "HighText Machine Language" },
+            { "id": "C", "text": "Hyperlink Text Markup Language" },
+            { "id": "D", "text": "Home Tool Markup Language" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "HTML is the standard markup language for creating web pages.",
+          "tags": ["web", "programming"]
+        },
+        {
+          "id": "TECH_024",
+          "text": "Which was the first company to reach a $1 trillion market cap?",
+          "options": [
+            { "id": "A", "text": "Apple" },
+            { "id": "B", "text": "Amazon" },
+            { "id": "C", "text": "Microsoft" },
+            { "id": "D", "text": "Google" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "Apple hit $1 trillion on August 2, 2018.",
+          "tags": ["companies", "records"]
+        },
+        {
+          "id": "TECH_025",
+          "text": "What does 'Bluetooth' refer to?",
+          "options": [
+            { "id": "A", "text": "A king from Denmark" },
+            { "id": "B", "text": "A type of tooth" },
+            { "id": "C", "text": "A blue laser technology" },
+            { "id": "D", "text": "A fictional character" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "HARD",
+          "explanation": "Named after King Harald 'Bluetooth' Gormsson who united tribes.",
+          "tags": ["bluetooth", "history"]
+        },
+        {
+          "id": "TECH_026",
+          "text": "Which file format is commonly used for images on the web?",
+          "options": [
+            { "id": "A", "text": "PNG" },
+            { "id": "B", "text": "BMP" },
+            { "id": "C", "text": "TIFF" },
+            { "id": "D", "text": "RAW" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "PNG supports transparency and lossless compression.",
+          "tags": ["web", "images"]
+        },
+        {
+          "id": "TECH_027",
+          "text": "Who invented the computer mouse?",
+          "options": [
+            { "id": "A", "text": "Steve Jobs" },
+            { "id": "B", "text": "Bill Gates" },
+            { "id": "C", "text": "Douglas Engelbart" },
+            { "id": "D", "text": "Alan Kay" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Douglas Engelbart demonstrated the mouse in 1968.",
+          "tags": ["hardware", "inventors"]
+        },
+        {
+          "id": "TECH_028",
+          "text": "What does 'PDF' stand for?",
+          "options": [
+            { "id": "A", "text": "Portable Document Format" },
+            { "id": "B", "text": "Printable Document File" },
+            { "id": "C", "text": "Public Document Format" },
+            { "id": "D", "text": "Personal Data File" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "PDF preserves document formatting across devices.",
+          "tags": ["software", "formats"]
+        },
+        {
+          "id": "TECH_029",
+          "text": "Which language is primarily used for Android app development?",
+          "options": [
+            { "id": "A", "text": "Swift" },
+            { "id": "B", "text": "Kotlin" },
+            { "id": "C", "text": "Objective-C" },
+            { "id": "D", "text": "C#" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Kotlin is now the preferred language for Android development.",
+          "tags": ["mobile", "programming"]
+        },
+        {
+          "id": "TECH_030",
+          "text": "What does 'IP' stand for in IP address?",
+          "options": [
+            { "id": "A", "text": "Internet Protocol" },
+            { "id": "B", "text": "Internal Processor" },
+            { "id": "C", "text": "Internet Provider" },
+            { "id": "D", "text": "Interface Port" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "IP addresses identify devices on a network.",
+          "tags": ["networking", "basics"]
+        },
+        {
+          "id": "TECH_031",
+          "text": "Which company owns YouTube?",
+          "options": [
+            { "id": "A", "text": "Microsoft" },
+            { "id": "B", "text": "Amazon" },
+            { "id": "C", "text": "Google" },
+            { "id": "D", "text": "Meta" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Google acquired YouTube in 2006 for $1.65 billion.",
+          "tags": ["companies", "google"]
+        },
+        {
+          "id": "TECH_032",
+          "text": "What does 'CAD' stand for in design software?",
+          "options": [
+            { "id": "A", "text": "Computer Aided Design" },
+            { "id": "B", "text": "Creative Art Design" },
+            { "id": "C", "text": "Central Architecture Database" },
+            { "id": "D", "text": "Computer Assisted Drawing" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "CAD software is used in engineering and architecture.",
+          "tags": ["software", "design"]
+        },
+        {
+          "id": "TECH_033",
+          "text": "Which was the first video game console?",
+          "options": [
+            { "id": "A", "text": "Atari 2600" },
+            { "id": "B", "text": "Magnavox Odyssey" },
+            { "id": "C", "text": "Nintendo NES" },
+            { "id": "D", "text": "Sega Genesis" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "The Magnavox Odyssey was released in 1972.",
+          "tags": ["gaming", "history"]
+        },
+        {
+          "id": "TECH_034",
+          "text": "What does 'QR' in QR code stand for?",
+          "options": [
+            { "id": "A", "text": "Quick Response" },
+            { "id": "B", "text": "Quiet Read" },
+            { "id": "C", "text": "Query Record" },
+            { "id": "D", "text": "Quick Read" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "QR codes were invented in 1994 by Denso Wave in Japan.",
+          "tags": ["mobile", "codes"]
+        },
+        {
+          "id": "TECH_035",
+          "text": "Which file system is used by Windows by default?",
+          "options": [
+            { "id": "A", "text": "ext4" },
+            { "id": "B", "text": "APFS" },
+            { "id": "C", "text": "NTFS" },
+            { "id": "D", "text": "HFS+" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "NTFS is the default file system for modern Windows versions.",
+          "tags": ["windows", "filesystems"]
+        },
+        {
+          "id": "TECH_036",
+          "text": "Who created the Linux kernel?",
+          "options": [
+            { "id": "A", "text": "Bill Gates" },
+            { "id": "B", "text": "Steve Jobs" },
+            { "id": "C", "text": "Linus Torvalds" },
+            { "id": "D", "text": "Richard Stallman" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Linus Torvalds released the first Linux kernel in 1991.",
+          "tags": ["linux", "open-source"]
+        },
+        {
+          "id": "TECH_037",
+          "text": "What does 'GIF' stand for?",
+          "options": [
+            { "id": "A", "text": "Graphical Image Format" },
+            { "id": "B", "text": "Graphics Interchange Format" },
+            { "id": "C", "text": "Global Image File" },
+            { "id": "D", "text": "General Image Format" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "GIF supports animation and 256 colors.",
+          "tags": ["images", "web"]
+        },
+        {
+          "id": "TECH_038",
+          "text": "Which company makes the PlayStation?",
+          "options": [
+            { "id": "A", "text": "Microsoft" },
+            { "id": "B", "text": "Nintendo" },
+            { "id": "C", "text": "Sony" },
+            { "id": "D", "text": "Sega" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Sony released the first PlayStation in 1994.",
+          "tags": ["gaming", "sony"]
+        },
+        {
+          "id": "TECH_039",
+          "text": "What does 'WWW' stand for?",
+          "options": [
+            { "id": "A", "text": "World Wide Web" },
+            { "id": "B", "text": "World Web Wide" },
+            { "id": "C", "text": "Wide World Web" },
+            { "id": "D", "text": "Web World Wide" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "The World Wide Web is a system of interlinked hypertext documents.",
+          "tags": ["internet", "basics"]
+        },
+        {
+          "id": "TECH_040",
+          "text": "Which protocol is used to send emails?",
+          "options": [
+            { "id": "A", "text": "HTTP" },
+            { "id": "B", "text": "FTP" },
+            { "id": "C", "text": "SMTP" },
+            { "id": "D", "text": "DNS" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "SMTP (Simple Mail Transfer Protocol) sends outgoing emails.",
+          "tags": ["networking", "email"]
+        },
+        {
+          "id": "TECH_041",
+          "text": "What does 'ROM' stand for in computing?",
+          "options": [
+            { "id": "A", "text": "Read Only Memory" },
+            { "id": "B", "text": "Random Only Memory" },
+            { "id": "C", "text": "Run Only Memory" },
+            { "id": "D", "text": "Read Optional Memory" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "ROM retains data even when the computer is turned off.",
+          "tags": ["hardware", "memory"]
+        },
+        {
+          "id": "TECH_042",
+          "text": "Which company created the Swift programming language?",
+          "options": [
+            { "id": "A", "text": "Google" },
+            { "id": "B", "text": "Microsoft" },
+            { "id": "C", "text": "Apple" },
+            { "id": "D", "text": "Facebook" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Swift was introduced by Apple in 2014 for iOS and macOS development.",
+          "tags": ["programming", "apple"]
+        },
+        {
+          "id": "TECH_043",
+          "text": "What is the name of SpaceX’s reusable rocket?",
+          "options": [
+            { "id": "A", "text": "Atlas" },
+            { "id": "B", "text": "Falcon" },
+            { "id": "C", "text": "Delta" },
+            { "id": "D", "text": "Titan" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Falcon 9 and Falcon Heavy are SpaceX’s flagship rockets.",
+          "tags": ["space", "spacex"]
+        },
+        {
+          "id": "TECH_044",
+          "text": "What does 'BIOS' stand for?",
+          "options": [
+            { "id": "A", "text": "Basic Input Output System" },
+            { "id": "B", "text": "Binary Input Output System" },
+            { "id": "C", "text": "Basic Internet Operating System" },
+            { "id": "D", "text": "Boot Initialization Operating System" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "BIOS initializes hardware during booting.",
+          "tags": ["hardware", "computers"]
+        },
+        {
+          "id": "TECH_045",
+          "text": "Which cryptocurrency was the first decentralized one?",
+          "options": [
+            { "id": "A", "text": "Ethereum" },
+            { "id": "B", "text": "Bitcoin" },
+            { "id": "C", "text": "Ripple" },
+            { "id": "D", "text": "Litecoin" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Bitcoin was created by Satoshi Nakamoto in 2009.",
+          "tags": ["crypto", "blockchain"]
+        },
+        {
+          "id": "TECH_046",
+          "text": "What does 'DNS' stand for?",
+          "options": [
+            { "id": "A", "text": "Domain Name System" },
+            { "id": "B", "text": "Data Network Service" },
+            { "id": "C", "text": "Dynamic Name Server" },
+            { "id": "D", "text": "Direct Network System" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "DNS translates domain names into IP addresses.",
+          "tags": ["internet", "networking"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sports",
+      "icon": "trophy",
+      "color": "#EF4444",
+      "questions": [
+        {
+          "id": "SPRT_001",
+          "text": "How many players are there on a standard basketball team on the court at once?",
+          "options": [
+            { "id": "A", "text": "5" },
+            { "id": "B", "text": "6" },
+            { "id": "C", "text": "7" },
+            { "id": "D", "text": "11" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "5 players per team (total 10) are on the court at the same time.",
+          "tags": ["basketball", "rules"]
+        },
+        {
+          "id": "SPRT_002",
+          "text": "In which sport can you score a 'hole-in-one'?",
+          "options": [
+            { "id": "A", "text": "Tennis" },
+            { "id": "B", "text": "Golf" },
+            { "id": "C", "text": "Baseball" },
+            { "id": "D", "text": "Cricket" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A hole-in-one is when a golfer gets the ball in the hole with one stroke from the tee.",
+          "tags": ["golf", "terminology"]
+        },
+        {
+          "id": "SPRT_003",
+          "text": "How long is a football (soccer) match?",
+          "options": [
+            { "id": "A", "text": "80 minutes" },
+            { "id": "B", "text": "90 minutes" },
+            { "id": "C", "text": "100 minutes" },
+            { "id": "D", "text": "120 minutes" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A standard match consists of two 45-minute halves (90 minutes total).",
+          "tags": ["football", "rules"]
+        },
+        {
+          "id": "SPRT_004",
+          "text": "Which country has won the most FIFA World Cups (men’s)?",
+          "options": [
+            { "id": "A", "text": "Germany" },
+            { "id": "B", "text": "Brazil" },
+            { "id": "C", "text": "Italy" },
+            { "id": "D", "text": "Argentina" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Brazil has won the World Cup 5 times (1958, 1962, 1970, 1994, 2002).",
+          "tags": ["football", "world-cup"]
+        },
+        {
+          "id": "SPRT_005",
+          "text": "How many rings are there on the Olympic symbol?",
+          "options": [
+            { "id": "A", "text": "4" },
+            { "id": "B", "text": "5" },
+            { "id": "C", "text": "6" },
+            { "id": "D", "text": "7" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The five interlocking rings represent the union of the five inhabited continents.",
+          "tags": ["olympics", "symbol"]
+        },
+        {
+          "id": "SPRT_006",
+          "text": "In tennis, what is the score of zero called?",
+          "options": [
+            { "id": "A", "text": "Nil" },
+            { "id": "B", "text": "Love" },
+            { "id": "C", "text": "Duck" },
+            { "id": "D", "text": "Zero" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The term 'love' for zero comes from the French 'l’œuf' (egg), resembling a zero.",
+          "tags": ["tennis", "terminology"]
+        },
+        {
+          "id": "SPRT_007",
+          "text": "Which sport is played at Wimbledon?",
+          "options": [
+            { "id": "A", "text": "Cricket" },
+            { "id": "B", "text": "Rugby" },
+            { "id": "C", "text": "Tennis" },
+            { "id": "D", "text": "Badminton" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Wimbledon hosts the oldest and most prestigious tennis tournament.",
+          "tags": ["tennis", "grand-slam"]
+        },
+        {
+          "id": "SPRT_008",
+          "text": "How high is a basketball hoop from the ground?",
+          "options": [
+            { "id": "A", "text": "8 feet" },
+            { "id": "B", "text": "9 feet" },
+            { "id": "C", "text": "10 feet" },
+            { "id": "D", "text": "11 feet" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "The standard height is 10 feet (3.05 meters).",
+          "tags": ["basketball", "rules"]
+        },
+        {
+          "id": "SPRT_009",
+          "text": "Which country invented baseball?",
+          "options": [
+            { "id": "A", "text": "England" },
+            { "id": "B", "text": "United States" },
+            { "id": "C", "text": "Cuba" },
+            { "id": "D", "text": "Japan" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Baseball evolved in the United States in the 19th century.",
+          "tags": ["baseball", "history"]
+        },
+        {
+          "id": "SPRT_010",
+          "text": "In which sport can you perform a 'slam dunk'?",
+          "options": [
+            { "id": "A", "text": "Volleyball" },
+            { "id": "B", "text": "Basketball" },
+            { "id": "C", "text": "Handball" },
+            { "id": "D", "text": "Rugby" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A slam dunk is when a player jumps and scores by putting the ball directly through the hoop.",
+          "tags": ["basketball", "moves"]
+        },
+        {
+          "id": "SPRT_011",
+          "text": "How many players are on a cricket team on the field?",
+          "options": [
+            { "id": "A", "text": "9" },
+            { "id": "B", "text": "10" },
+            { "id": "C", "text": "11" },
+            { "id": "D", "text": "12" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "11 players per side in professional cricket.",
+          "tags": ["cricket", "rules"]
+        },
+        {
+          "id": "SPRT_012",
+          "text": "Which athlete has won the most Olympic gold medals?",
+          "options": [
+            { "id": "A", "text": "Usain Bolt" },
+            { "id": "B", "text": "Michael Phelps" },
+            { "id": "C", "text": "Carl Lewis" },
+            { "id": "D", "text": "Simone Biles" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Michael Phelps has 23 Olympic gold medals (swimming).",
+          "tags": ["olympics", "records"]
+        },
+        {
+          "id": "SPRT_013",
+          "text": "In which sport is the term 'ace' used?",
+          "options": [
+            { "id": "A", "text": "Tennis" },
+            { "id": "B", "text": "Volleyball" },
+            { "id": "C", "text": "Badminton" },
+            { "id": "D", "text": "All of the above" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "MEDIUM",
+          "explanation": "An ace is a serve that lands in the opponent’s court untouched.",
+          "tags": ["tennis", "volleyball", "badminton"]
+        },
+        {
+          "id": "SPRT_014",
+          "text": "How long is an Olympic swimming pool?",
+          "options": [
+            { "id": "A", "text": "25 meters" },
+            { "id": "B", "text": "50 meters" },
+            { "id": "C", "text": "75 meters" },
+            { "id": "D", "text": "100 meters" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Olympic pools are 50 meters long (long course).",
+          "tags": ["swimming", "olympics"]
+        },
+        {
+          "id": "SPRT_015",
+          "text": "Which country won the first ever FIFA World Cup in 1930?",
+          "options": [
+            { "id": "A", "text": "Brazil" },
+            { "id": "B", "text": "Italy" },
+            { "id": "C", "text": "Uruguay" },
+            { "id": "D", "text": "Argentina" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Uruguay defeated Argentina 4–2 in the final.",
+          "tags": ["football", "world-cup"]
+        },
+        {
+          "id": "SPRT_016",
+          "text": "How many points is a touchdown worth in American football?",
+          "options": [
+            { "id": "A", "text": "3" },
+            { "id": "B", "text": "6" },
+            { "id": "C", "text": "7" },
+            { "id": "D", "text": "8" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A touchdown is worth 6 points (+1 or 2 for conversion).",
+          "tags": ["american-football", "scoring"]
+        },
+        {
+          "id": "SPRT_017",
+          "text": "Which Grand Slam tennis tournament is played on clay courts?",
+          "options": [
+            { "id": "A", "text": "Wimbledon" },
+            { "id": "B", "text": "US Open" },
+            { "id": "C", "text": "French Open" },
+            { "id": "D", "text": "Australian Open" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "The French Open (Roland Garros) is the only Grand Slam on clay.",
+          "tags": ["tennis", "grand-slam"]
+        },
+        {
+          "id": "SPRT_018",
+          "text": "What is the maximum score possible with 3 darts in one turn?",
+          "options": [
+            { "id": "A", "text": "180" },
+            { "id": "B", "text": "170" },
+            { "id": "C", "text": "177" },
+            { "id": "D", "text": "171" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "Three triple-20s = 3 × 60 = 180.",
+          "tags": ["darts", "scoring"]
+        },
+        {
+          "id": "SPRT_019",
+          "text": "Which sport uses the term 'love' for a score of zero?",
+          "options": [
+            { "id": "A", "text": "Tennis" },
+            { "id": "B", "text": "Badminton" },
+            { "id": "C", "text": "Squash" },
+            { "id": "D", "text": "All of the above" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "MEDIUM",
+          "explanation": "All racket sports derived scoring from tennis.",
+          "tags": ["terminology", "racket-sports"]
+        },
+        {
+          "id": "SPRT_020",
+          "text": "In which year were the first modern Olympic Games held?",
+          "options": [
+            { "id": "A", "text": "1894" },
+            { "id": "B", "text": "1896" },
+            { "id": "C", "text": "1900" },
+            { "id": "D", "text": "1904" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The first modern Olympics were held in Athens, Greece in 1896.",
+          "tags": ["olympics", "history"]
+        },
+        {
+          "id": "SPRT_021",
+          "text": "How many holes are there in a full round of golf?",
+          "options": [
+            { "id": "A", "text": "9" },
+            { "id": "B", "text": "18" },
+            { "id": "C", "text": "21" },
+            { "id": "D", "text": "27" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A standard round of golf is 18 holes.",
+          "tags": ["golf", "rules"]
+        },
+        {
+          "id": "SPRT_022",
+          "text": "Which country has hosted the most Summer Olympic Games?",
+          "options": [
+            { "id": "A", "text": "France" },
+            { "id": "B", "text": "United States" },
+            { "id": "C", "text": "Japan" },
+            { "id": "D", "text": "United Kingdom" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "USA has hosted 5 Summer Olympics (1904, 1932, 1984, 1996, 2028).",
+          "tags": ["olympics", "records"]
+        },
+        {
+          "id": "SPRT_023",
+          "text": "What color belt is the highest rank in judo?",
+          "options": [
+            { "id": "A", "text": "Black" },
+            { "id": "B", "text": "Red" },
+            { "id": "C", "text": "White" },
+            { "id": "D", "text": "Red and White" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "HARD",
+          "explanation": "In judo, the highest ranks (6th dan and above) wear red-and-white belts.",
+          "tags": ["judo", "martial-arts"]
+        },
+        {
+          "id": "SPRT_024",
+          "text": "Which sport features the 'Stanley Cup'?",
+          "options": [
+            { "id": "A", "text": "Basketball" },
+            { "id": "B", "text": "Ice Hockey" },
+            { "id": "C", "text": "American Football" },
+            { "id": "D", "text": "Baseball" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Stanley Cup is awarded to the NHL playoff champion.",
+          "tags": ["ice-hockey", "trophies"]
+        },
+        {
+          "id": "SPRT_025",
+          "text": "How many players are on a volleyball team on the court?",
+          "options": [
+            { "id": "A", "text": "5" },
+            { "id": "B", "text": "6" },
+            { "id": "C", "text": "7" },
+            { "id": "D", "text": "8" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "6 players per team in standard indoor volleyball.",
+          "tags": ["volleyball", "rules"]
+        },
+        {
+          "id": "SPRT_026",
+          "text": "Who is known as 'The Greatest' in boxing?",
+          "options": [
+            { "id": "A", "text": "Mike Tyson" },
+            { "id": "B", "text": "Muhammad Ali" },
+            { "id": "C", "text": "Floyd Mayweather" },
+            { "id": "D", "text": "Manny Pacquiao" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Muhammad Ali famously called himself 'The Greatest'.",
+          "tags": ["boxing", "legends"]
+        },
+        {
+          "id": "SPRT_027",
+          "text": "In which sport can you win the 'Davis Cup'?",
+          "options": [
+            { "id": "A", "text": "Tennis" },
+            { "id": "B", "text": "Golf" },
+            { "id": "C", "text": "Cricket" },
+            { "id": "D", "text": "Rugby" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "The Davis Cup is the premier international team event in men’s tennis.",
+          "tags": ["tennis", "tournaments"]
+        },
+        {
+          "id": "SPRT_028",
+          "text": "How many minutes are played in an NBA basketball game?",
+          "options": [
+            { "id": "A", "text": "40" },
+            { "id": "B", "text": "48" },
+            { "id": "C", "text": "60" },
+            { "id": "D", "text": "32" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Four 12-minute quarters = 48 minutes total.",
+          "tags": ["basketball", "nba"]
+        },
+        {
+          "id": "SPRT_029",
+          "text": "Which country dominates Olympic table tennis, winning most gold medals?",
+          "options": [
+            { "id": "A", "text": "Japan" },
+            { "id": "B", "text": "South Korea" },
+            { "id": "C", "text": "China" },
+            { "id": "D", "text": "Germany" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "China has won over 60% of all Olympic table tennis gold medals.",
+          "tags": ["table-tennis", "olympics"]
+        },
+        {
+          "id": "SPRT_030",
+          "text": "What is the national sport of Japan?",
+          "options": [
+            { "id": "A", "text": "Baseball" },
+            { "id": "B", "text": "Sumo Wrestling" },
+            { "id": "C", "text": "Judo" },
+            { "id": "D", "text": "Karate" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Sumo is considered Japan’s de facto national sport.",
+          "tags": ["japan", "culture"]
+        },
+        {
+          "id": "SPRT_031",
+          "text": "How many gold medals did Usain Bolt win in his Olympic career?",
+          "options": [
+            { "id": "A", "text": "6" },
+            { "id": "B", "text": "8" },
+            { "id": "C", "text": "9" },
+            { "id": "D", "text": "11" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Bolt won 8 Olympic golds (100m, 200m, 4x100m in 2008, 2012, 2016; one later stripped).",
+          "tags": ["athletics", "olympics"]
+        },
+        {
+          "id": "SPRT_032",
+          "text": "In rugby union, how many points is a try worth?",
+          "options": [
+            { "id": "A", "text": "4" },
+            { "id": "B", "text": "5" },
+            { "id": "C", "text": "6" },
+            { "id": "D", "text": "7" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A try is worth 5 points (plus possible conversion).",
+          "tags": ["rugby", "scoring"]
+        },
+        {
+          "id": "SPRT_033",
+          "text": "Which city hosted the 2016 Summer Olympics?",
+          "options": [
+            { "id": "A", "text": "London" },
+            { "id": "B", "text": "Rio de Janeiro" },
+            { "id": "C", "text": "Tokyo" },
+            { "id": "D", "text": "Beijing" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Rio 2016 was the first Olympics held in South America.",
+          "tags": ["olympics", "history"]
+        },
+        {
+          "id": "SPRT_034",
+          "text": "What is the only sport to be played on the moon?",
+          "options": [
+            { "id": "A", "text": "Tennis" },
+            { "id": "B", "text": "Baseball" },
+            { "id": "C", "text": "Golf" },
+            { "id": "D", "text": "Cricket" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Alan Shepard hit a golf ball on the moon during Apollo 14 in 1971.",
+          "tags": ["golf", "space"]
+        },
+        {
+          "id": "SPRT_035",
+          "text": "Which country has won the most Rugby World Cups?",
+          "options": [
+            { "id": "A", "text": "Australia" },
+            { "id": "B", "text": "New Zealand" },
+            { "id": "C", "text": "South Africa" },
+            { "id": "D", "text": "England" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "South Africa has won 4 Rugby World Cups (1995, 2007, 2019, 2023).",
+          "tags": ["rugby", "world-cup"]
+        },
+        {
+          "id": "SPRT_036",
+          "text": "In which sport is the term 'bullseye' used?",
+          "options": [
+            { "id": "A", "text": "Archery" },
+            { "id": "B", "text": "Darts" },
+            { "id": "C", "text": "Shooting" },
+            { "id": "D", "text": "All of the above" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "EASY",
+          "explanation": "Bullseye is the center of the target in all three sports.",
+          "tags": ["terminology", "precision"]
+        },
+        {
+          "id": "SPRT_037",
+          "text": "Who has scored the most goals in FIFA World Cup history (men’s)?",
+          "options": [
+            { "id": "A", "text": "Pelé" },
+            { "id": "B", "text": "Ronaldo (Brazil)" },
+            { "id": "C", "text": "Miroslav Klose" },
+            { "id": "D", "text": "Lionel Messi" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Miroslav Klose (Germany) scored 16 goals across four tournaments.",
+          "tags": ["football", "records"]
+        },
+        {
+          "id": "SPRT_038",
+          "text": "How many dimples does an average golf ball have?",
+          "options": [
+            { "id": "A", "text": "216" },
+            { "id": "B", "text": "336" },
+            { "id": "C", "text": "416" },
+            { "id": "D", "text": "500" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Most golf balls have around 336 dimples (varies by model).",
+          "tags": ["golf", "trivia"]
+        },
+        {
+          "id": "SPRT_039",
+          "text": "Which sport has 9 innings per team?",
+          "options": [
+            { "id": "A", "text": "Cricket" },
+            { "id": "B", "text": "Baseball" },
+            { "id": "C", "text": "Softball" },
+            { "id": "D", "text": "Rounders" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A standard baseball game has 9 innings per team.",
+          "tags": ["baseball", "rules"]
+        },
+        {
+          "id": "SPRT_040",
+          "text": "What is the fastest recorded serve in men’s tennis?",
+          "options": [
+            { "id": "A", "text": "253 km/h" },
+            { "id": "B", "text": "263 km/h" },
+            { "id": "C", "text": "273 km/h" },
+            { "id": "D", "text": "283 km/h" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Sam Groth hit a 263.4 km/h serve in 2012.",
+          "tags": ["tennis", "records"]
+        },
+        {
+          "id": "SPRT_041",
+          "text": "Which country is known as the 'Home of Cricket'?",
+          "options": [
+            { "id": "A", "text": "Australia" },
+            { "id": "B", "text": "India" },
+            { "id": "C", "text": "England" },
+            { "id": "D", "text": "West Indies" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Lord’s Cricket Ground in London is called the 'Home of Cricket'.",
+          "tags": ["cricket", "culture"]
+        },
+        {
+          "id": "SPRT_042",
+          "text": "How many players are on an ice hockey team on the ice?",
+          "options": [
+            { "id": "A", "text": "5" },
+            { "id": "B", "text": "6" },
+            { "id": "C", "text": "7" },
+            { "id": "D", "text": "11" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "6 players per team (5 skaters + 1 goalie).",
+          "tags": ["ice-hockey", "rules"]
+        },
+        {
+          "id": "SPRT_043",
+          "text": "Which female gymnast has won the most Olympic medals?",
+          "options": [
+            { "id": "A", "text": "Nadia Comăneci" },
+            { "id": "B", "text": "Simone Biles" },
+            { "id": "C", "text": "Larisa Latynina" },
+            { "id": "D", "text": "Shannon Miller" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Larisa Latynina (USSR) won 18 Olympic medals (9 gold).",
+          "tags": ["gymnastics", "records"]
+        },
+        {
+          "id": "SPRT_044",
+          "text": "What is the length of a marathon?",
+          "options": [
+            { "id": "A", "text": "42.195 km" },
+            { "id": "B", "text": "40 km" },
+            { "id": "C", "text": "45 km" },
+            { "id": "D", "text": "50 km" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "The official marathon distance is 42.195 kilometers (26 miles 385 yards).",
+          "tags": ["athletics", "running"]
+        },
+        {
+          "id": "SPRT_045",
+          "text": "Which country has won the most Olympic medals in history?",
+          "options": [
+            { "id": "A", "text": "United States" },
+            { "id": "B", "text": "Soviet Union" },
+            { "id": "C", "text": "Germany" },
+            { "id": "D", "text": "China" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "The USA has over 2,800 total Olympic medals.",
+          "tags": ["olympics", "records"]
+        },
+        {
+          "id": "SPRT_046",
+          "text": "In which sport is the 'America’s Cup' contested?",
+          "options": [
+            { "id": "A", "text": "Rowing" },
+            { "id": "B", "text": "Sailing" },
+            { "id": "C", "text": "Swimming" },
+            { "id": "D", "text": "Canoeing" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The America’s Cup is the oldest international trophy in sport (sailing).",
+          "tags": ["sailing", "trophies"]
+        },
+        {
+          "id": "SPRT_047",
+          "text": "How many squares are there on a standard chessboard?",
+          "options": [
+            { "id": "A", "text": "64" },
+            { "id": "B", "text": "81" },
+            { "id": "C", "text": "100" },
+            { "id": "D", "text": "121" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "An 8×8 board has 64 squares.",
+          "tags": ["chess", "rules"]
+        },
+        {
+          "id": "SPRT_048",
+          "text": "Which athlete is known as the 'Fastest Man on Earth'?",
+          "options": [
+            { "id": "A", "text": "Carl Lewis" },
+            { "id": "B", "text": "Jesse Owens" },
+            { "id": "C", "text": "Usain Bolt" },
+            { "id": "D", "text": "Michael Johnson" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Usain Bolt holds world records in 100m and 200m.",
+          "tags": ["athletics", "sprinting"]
+        },
+        {
+          "id": "SPRT_049",
+          "text": "Which sport uses a shuttlecock?",
+          "options": [
+            { "id": "A", "text": "Tennis" },
+            { "id": "B", "text": "Badminton" },
+            { "id": "C", "text": "Squash" },
+            { "id": "D", "text": "Table Tennis" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Badminton is played with a shuttlecock (also called a birdie).",
+          "tags": ["badminton", "equipment"]
+        },
+        {
+          "id": "SPRT_050",
+          "text": "How many World Cup titles has Lionel Messi won?",
+          "options": [
+            { "id": "A", "text": "0" },
+            { "id": "B", "text": "1" },
+            { "id": "C", "text": "2" },
+            { "id": "D", "text": "3" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Messi won the 2022 FIFA World Cup with Argentina.",
+          "tags": ["football", "messi"]
+        },
+        {
+          "id": "SPRT_051",
+          "text": "In which sport can you hit a 'six'?",
+          "options": [
+            { "id": "A", "text": "Baseball" },
+            { "id": "B", "text": "Cricket" },
+            { "id": "C", "text": "Rounders" },
+            { "id": "D", "text": "Softball" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Hitting the ball over the boundary on the full scores 6 runs.",
+          "tags": ["cricket", "scoring"]
+        },
+        {
+          "id": "SPRT_052",
+          "text": "Which country has won the most Cricket World Cups (men’s ODI)?",
+          "options": [
+            { "id": "A", "text": "Australia" },
+            { "id": "B", "text": "India" },
+            { "id": "C", "text": "West Indies" },
+            { "id": "D", "text": "England" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "Australia has won 6 ODI World Cups (1987, 1999, 2003, 2007, 2015, 2023).",
+          "tags": ["cricket", "world-cup"]
+        },
+        {
+          "id": "SPRT_053",
+          "text": "What is the diameter of a basketball hoop in inches?",
+          "options": [
+            { "id": "A", "text": "16 inches" },
+            { "id": "B", "text": "18 inches" },
+            { "id": "C", "text": "20 inches" },
+            { "id": "D", "text": "22 inches" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "The official rim diameter is 18 inches.",
+          "tags": ["basketball", "equipment"]
+        },
+        {
+          "id": "SPRT_054",
+          "text": "Which sport has a playing field called a 'diamond'?",
+          "options": [
+            { "id": "A", "text": "Cricket" },
+            { "id": "B", "text": "Baseball" },
+            { "id": "C", "text": "Rugby" },
+            { "id": "D", "text": "Football" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The infield in baseball is called the diamond.",
+          "tags": ["baseball", "terminology"]
+        },
+        {
+          "id": "SPRT_055",
+          "text": "Who won the Ballon d’Or a record 8 times?",
+          "options": [
+            { "id": "A", "text": "Cristiano Ronaldo" },
+            { "id": "B", "text": "Lionel Messi" },
+            { "id": "C", "text": "Zinedine Zidane" },
+            { "id": "D", "text": "Michel Platini" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Lionel Messi has won the Ballon d’Or 8 times (2009–2023).",
+          "tags": ["football", "awards"]
+        },
+        {
+          "id": "SPRT_056",
+          "text": "In which sport is the 'Heisman Trophy' awarded?",
+          "options": [
+            { "id": "A", "text": "Basketball" },
+            { "id": "B", "text": "Baseball" },
+            { "id": "C", "text": "American Football" },
+            { "id": "D", "text": "Ice Hockey" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Given annually to the most outstanding college football player in the USA.",
+          "tags": ["american-football", "awards"]
+        },
+        {
+          "id": "SPRT_057",
+          "text": "How many players from each team are on the field in Australian Rules Football?",
+          "options": [
+            { "id": "A", "text": "15" },
+            { "id": "B", "text": "18" },
+            { "id": "C", "text": "20" },
+            { "id": "D", "text": "22" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "18 players per team on the oval-shaped field.",
+          "tags": ["australian-rules", "rules"]
+        },
+        {
+          "id": "SPRT_058",
+          "text": "Which country won the 2020 UEFA European Championship?",
+          "options": [
+            { "id": "A", "text": "France" },
+            { "id": "B", "text": "England" },
+            { "id": "C", "text": "Italy" },
+            { "id": "D", "text": "Spain" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Italy defeated England on penalties in the final at Wembley.",
+          "tags": ["football", "euro"]
+        },
+        {
+          "id": "SPRT_059",
+          "text": "What is the only Grand Slam tournament played on grass courts?",
+          "options": [
+            { "id": "A", "text": "Australian Open" },
+            { "id": "B", "text": "French Open" },
+            { "id": "C", "text": "Wimbledon" },
+            { "id": "D", "text": "US Open" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Wimbledon is the only major still played on natural grass.",
+          "tags": ["tennis", "surfaces"]
+        },
+        {
+          "id": "SPRT_060",
+          "text": "Which NBA player is known as 'King James'?",
+          "options": [
+            { "id": "A", "text": "Kobe Bryant" },
+            { "id": "B", "text": "Michael Jordan" },
+            { "id": "C", "text": "LeBron James" },
+            { "id": "D", "text": "Stephen Curry" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "LeBron James is widely known as 'King James'.",
+          "tags": ["basketball", "nba"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Islam",
+      "icon": "mosque",
+      "color": "#10B981",
+      "questions": [
+        {
+          "id": "ISLM_001",
+          "text": "Who is the final Prophet in Islam?",
+          "options": [
+            { "id": "A", "text": "Musa (AS)" },
+            { "id": "B", "text": "Isa (AS)" },
+            { "id": "C", "text": "Muhammad (SAW)" },
+            { "id": "D", "text": "Ibrahim (AS)" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Prophet Muhammad (peace be upon him) is the Seal of the Prophets (Khatam an-Nabiyyin).",
+          "tags": ["prophets", "basics"]
+        },
+        {
+          "id": "ISLM_002",
+          "text": "How many pillars (arkan) of Islam are there?",
+          "options": [
+            { "id": "A", "text": "4" },
+            { "id": "B", "text": "5" },
+            { "id": "C", "text": "6" },
+            { "id": "D", "text": "7" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The five pillars are: Shahada, Salah, Zakat, Sawm, and Hajj.",
+          "tags": ["pillars", "basics"]
+        },
+        {
+          "id": "ISLM_003",
+          "text": "What is the first pillar of Islam?",
+          "options": [
+            { "id": "A", "text": "Salah" },
+            { "id": "B", "text": "Shahada" },
+            { "id": "C", "text": "Zakat" },
+            { "id": "D", "text": "Hajj" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Shahada: 'There is no god but Allah, and Muhammad is His messenger.'",
+          "tags": ["pillars", "belief"]
+        },
+        {
+          "id": "ISLM_004",
+          "text": "In which cave did Prophet Muhammad (SAW) receive the first revelation?",
+          "options": [
+            { "id": "A", "text": "Cave Thawr" },
+            { "id": "B", "text": "Cave Hira" },
+            { "id": "C", "text": "Cave Uhud" },
+            { "id": "D", "text": "Cave Safa" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The first verses of the Qur’an were revealed in Cave Hira in 610 CE.",
+          "tags": ["revelation", "makkah"]
+        },
+        {
+          "id": "ISLM_005",
+          "text": "How many years did the revelation of the Qur’an take?",
+          "options": [
+            { "id": "A", "text": "20 years" },
+            { "id": "B", "text": "23 years" },
+            { "id": "C", "text": "25 years" },
+            { "id": "D", "text": "30 years" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "13 years in Makkah + 10 years in Madinah = 23 years total.",
+          "tags": ["quran", "revelation"]
+        },
+        {
+          "id": "ISLM_006",
+          "text": "What is the name of the angel who brought revelation to the Prophet (SAW)?",
+          "options": [
+            { "id": "A", "text": "Mikaeel" },
+            { "id": "B", "text": "Israfil" },
+            { "id": "C", "text": "Jibreel" },
+            { "id": "D", "text": "Azrael" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Angel Jibreel (Gabriel) delivered the Qur’an to Prophet Muhammad (SAW).",
+          "tags": ["angels", "revelation"]
+        },
+        {
+          "id": "ISLM_007",
+          "text": "How many chapters (surahs) are there in the Qur’an?",
+          "options": [
+            { "id": "A", "text": "100" },
+            { "id": "B", "text": "114" },
+            { "id": "C", "text": "120" },
+            { "id": "D", "text": "99" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Qur’an consists of 114 surahs of varying lengths.",
+          "tags": ["quran", "basics"]
+        },
+        {
+          "id": "ISLM_008",
+          "text": "Which city is known as the 'City of the Prophet'?",
+          "options": [
+            { "id": "A", "text": "Makkah" },
+            { "id": "B", "text": "Madinah" },
+            { "id": "C", "text": "Jerusalem" },
+            { "id": "D", "text": "Damascus" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Prophet (SAW) migrated to Madinah (formerly Yathrib).",
+          "tags": ["hijrah", "madinah"]
+        },
+        {
+          "id": "ISLM_009",
+          "text": "What is the meaning of 'Islam'?",
+          "options": [
+            { "id": "A", "text": "Peace" },
+            { "id": "B", "text": "Submission" },
+            { "id": "C", "text": "Both A and B" },
+            { "id": "D", "text": "Faith" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Islam means voluntary submission to Allah, which brings peace.",
+          "tags": ["basics", "linguistics"]
+        },
+        {
+          "id": "ISLM_010",
+          "text": "Which battle is known as the 'Battle of the Trench' (Ghazwa-e-Khandaq)?",
+          "options": [
+            { "id": "A", "text": "Badr" },
+            { "id": "B", "text": "Uhud" },
+            { "id": "C", "text": "Khandaq" },
+            { "id": "D", "text": "Tabuk" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "In 5 AH (627 CE), Muslims dug a trench around Madinah for defense.",
+          "tags": ["battles", "seerah"]
+        },
+        {
+          "id": "ISLM_011",
+          "text": "Which surah is known as the 'Heart of the Qur’an'?",
+          "options": [
+            { "id": "A", "text": "Surah Al-Fatiha" },
+            { "id": "B", "text": "Surah Al-Ikhlas" },
+            { "id": "C", "text": "Surah Yaseen" },
+            { "id": "D", "text": "Surah Ar-Rahman" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The Prophet (SAW) called Surah Yaseen the heart of the Qur’an.",
+          "tags": ["quran", "hadith"]
+        },
+        {
+          "id": "ISLM_012",
+          "text": "How many daily obligatory (fard) prayers are there?",
+          "options": [
+            { "id": "A", "text": "3" },
+            { "id": "B", "text": "4" },
+            { "id": "C", "text": "5" },
+            { "id": "D", "text": "6" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Fajr, Zuhr, Asr, Maghrib, and Isha.",
+          "tags": ["salah", "pillars"]
+        },
+        {
+          "id": "ISLM_013",
+          "text": "What is the night journey of the Prophet (SAW) called?",
+          "options": [
+            { "id": "A", "text": "Hijrah" },
+            { "id": "B", "text": "Isra and Mi'raj" },
+            { "id": "C", "text": "Ghazwa" },
+            { "id": "D", "text": "Fath Makkah" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Isra (night journey to Jerusalem) and Mi'raj (ascension to heavens).",
+          "tags": ["miracles", "seerah"]
+        },
+        {
+          "id": "ISLM_014",
+          "text": "Which prophet is known as 'Friend of Allah' (Khaleelullah)?",
+          "options": [
+            { "id": "A", "text": "Musa (AS)" },
+            { "id": "B", "text": "Ibrahim (AS)" },
+            { "id": "C", "text": "Yusuf (AS)" },
+            { "id": "D", "text": "Isa (AS)" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Allah called Prophet Ibrahim (AS) His Khaleel in the Qur’an.",
+          "tags": ["prophets", "titles"]
+        },
+        {
+          "id": "ISLM_015",
+          "text": "What is the longest surah in the Qur’an?",
+          "options": [
+            { "id": "A", "text": "Surah Al-Baqarah" },
+            { "id": "B", "text": "Surah Al-Imran" },
+            { "id": "C", "text": "Surah An-Nisa" },
+            { "id": "D", "text": "Surah Al-Kahf" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Surah Al-Baqarah has 286 verses.",
+          "tags": ["quran", "surahs"]
+        },
+        {
+          "id": "ISLM_016",
+          "text": "Which companion was given the title 'The Trustworthy' (Al-Ameen) before prophethood?",
+          "options": [
+            { "id": "A", "text": "Abu Bakr (RA)" },
+            { "id": "B", "text": "Umar (RA)" },
+            { "id": "C", "text": "Muhammad (SAW)" },
+            { "id": "D", "text": "Ali (RA)" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Even before prophethood, the people of Makkah called him Al-Ameen.",
+          "tags": ["seerah", "titles"]
+        },
+        {
+          "id": "ISLM_017",
+          "text": "Which is the only month mentioned by name in the Qur’an?",
+          "options": [
+            { "id": "A", "text": "Muharram" },
+            { "id": "B", "text": "Rajab" },
+            { "id": "C", "text": "Ramadan" },
+            { "id": "D", "text": "Dhul-Hijjah" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Ramadan is mentioned in Surah Al-Baqarah, verse 185.",
+          "tags": ["quran", "months"]
+        },
+        {
+          "id": "ISLM_018",
+          "text": "What is the reward for reciting one letter of the Qur’an?",
+          "options": [
+            { "id": "A", "text": "10 good deeds" },
+            { "id": "B", "text": "100 good deeds" },
+            { "id": "C", "text": "700 good deeds" },
+            { "id": "D", "text": "1000 good deeds" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "The Prophet (SAW) said: 'Whoever reads a letter from the Book of Allah will receive 10 rewards.'",
+          "tags": ["quran", "hadith"]
+        },
+        {
+          "id": "ISLM_019",
+          "text": "How many gates does Paradise (Jannah) have?",
+          "options": [
+            { "id": "A", "text": "7" },
+            { "id": "B", "text": "8" },
+            { "id": "C", "text": "9" },
+            { "id": "D", "text": "12" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "There are eight gates, one of which is called Baab As-Salah (for those who prayed regularly).",
+          "tags": ["akhirah", "jannah"]
+        },
+        {
+          "id": "ISLM_020",
+          "text": "Which prophet built the Ka’bah with his son?",
+          "options": [
+            { "id": "A", "text": "Ibrahim and Ismail (AS)" },
+            { "id": "B", "text": "Musa and Haroon (AS)" },
+            { "id": "C", "text": "Dawood and Sulayman (AS)" },
+            { "id": "D", "text": "Yusuf and Yaqub (AS)" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Prophet Ibrahim and his son Ismail rebuilt the Ka’bah.",
+          "tags": ["prophets", "kaabah"]
+        },
+        {
+          "id": "ISLM_021",
+          "text": "What is the first month of the Islamic (Hijri) calendar?",
+          "options": [
+            { "id": "A", "text": "Ramadan" },
+            { "id": "B", "text": "Dhul-Hijjah" },
+            { "id": "C", "text": "Muharram" },
+            { "id": "D", "text": "Rabi-ul-Awwal" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Muharram is the first month and one of the four sacred months.",
+          "tags": ["calendar", "months"]
+        },
+        {
+          "id": "ISLM_022",
+          "text": "Which surah begins with 'By the fig and the olive'?",
+          "options": [
+            { "id": "A", "text": "Surah At-Teen" },
+            { "id": "B", "text": "Surah Al-Fajr" },
+            { "id": "C", "text": "Surah Ad-Duha" },
+            { "id": "D", "text": "Surah Ash-Sharh" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "Surah At-Teen (95) starts with oaths by the fig and olive.",
+          "tags": ["quran", "makkan"]
+        },
+        {
+          "id": "ISLM_023",
+          "text": "Who was the first martyr (shaheed) in Islam?",
+          "options": [
+            { "id": "A", "text": "Hamza ibn Abdul Muttalib" },
+            { "id": "B", "text": "Sumayyah bint Khayyat" },
+            { "id": "C", "text": "Yasir ibn Amir" },
+            { "id": "D", "text": "Bilal ibn Rabah" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Sumayyah (RA) was killed by Abu Jahl for accepting Islam.",
+          "tags": ["companions", "makkah"]
+        },
+        {
+          "id": "ISLM_024",
+          "text": "Which animal carried the Prophet (SAW) during Mi'raj?",
+          "options": [
+            { "id": "A", "text": "Camel" },
+            { "id": "B", "text": "Horse" },
+            { "id": "C", "text": "Buraq" },
+            { "id": "D", "text": "Donkey" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Buraq was a heavenly mount faster than lightning.",
+          "tags": ["miracles", "miraj"]
+        },
+        {
+          "id": "ISLM_025",
+          "text": "How many times is the word 'Allah' mentioned in the Qur’an?",
+          "options": [
+            { "id": "A", "text": "2698" },
+            { "id": "B", "text": "114" },
+            { "id": "C", "text": "6236" },
+            { "id": "D", "text": "99" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "HARD",
+          "explanation": "The name 'Allah' appears 2698 times in the Qur’an.",
+          "tags": ["quran", "statistics"]
+        },
+        {
+          "id": "ISLM_026",
+          "text": "Which prophet is mentioned most frequently in the Qur’an?",
+          "options": [
+            { "id": "A", "text": "Musa (AS)" },
+            { "id": "B", "text": "Ibrahim (AS)" },
+            { "id": "C", "text": "Isa (AS)" },
+            { "id": "D", "text": "Muhammad (SAW)" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "Prophet Musa (AS) is mentioned 136 times.",
+          "tags": ["quran", "prophets"]
+        },
+        {
+          "id": "ISLM_027",
+          "text": "What is the greatest verse (Ayat al-Kursi) found in which surah?",
+          "options": [
+            { "id": "A", "text": "Surah Al-Baqarah" },
+            { "id": "B", "text": "Surah Al-Imran" },
+            { "id": "C", "text": "Surah Yaseen" },
+            { "id": "D", "text": "Surah Al-Mulk" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Ayat al-Kursi is verse 255 of Surah Al-Baqarah.",
+          "tags": ["quran", "verses"]
+        },
+        {
+          "id": "ISLM_028",
+          "text": "Which companion was known as 'The Lion of Allah' (Asadullah)?",
+          "options": [
+            { "id": "A", "text": "Umar ibn al-Khattab" },
+            { "id": "B", "text": "Ali ibn Abi Talib" },
+            { "id": "C", "text": "Hamza ibn Abdul Muttalib" },
+            { "id": "D", "text": "Khalid ibn al-Walid" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Hamza (RA) was given this title by the Prophet (SAW).",
+          "tags": ["companions", "titles"]
+        },
+        {
+          "id": "ISLM_029",
+          "text": "Which treaty ended the state of war between Muslims and Quraysh?",
+          "options": [
+            { "id": "A", "text": "Treaty of Aqabah" },
+            { "id": "B", "text": "Treaty of Hudaybiyyah" },
+            { "id": "C", "text": "Treaty of Madinah" },
+            { "id": "D", "text": "Treaty of Tabuk" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Signed in 6 AH, it was a 10-year peace treaty.",
+          "tags": ["seerah", "treaties"]
+        },
+        {
+          "id": "ISLM_030",
+          "text": "Which surah is recited in every rak’ah of salah?",
+          "options": [
+            { "id": "A", "text": "Surah Al-Ikhlas" },
+            { "id": "B", "text": "Surah Al-Fatiha" },
+            { "id": "C", "text": "Surah An-Nas" },
+            { "id": "D", "text": "Surah Al-Kawthar" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Surah Al-Fatiha is obligatory in every rak’ah.",
+          "tags": ["salah", "quran"]
+        },
+        {
+          "id": "ISLM_031",
+          "text": "What is the meaning of 'Zakat'?",
+          "options": [
+            { "id": "A", "text": "Fasting" },
+            { "id": "B", "text": "Prayer" },
+            { "id": "C", "text": "Charity/Purification" },
+            { "id": "D", "text": "Pilgrimage" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Zakat means both purification and growth.",
+          "tags": ["pillars", "zakat"]
+        },
+        {
+          "id": "ISLM_032",
+          "text": "How many prophets are mentioned by name in the Qur’an?",
+          "options": [
+            { "id": "A", "text": "20" },
+            { "id": "B", "text": "25" },
+            { "id": "C", "text": "30" },
+            { "id": "D", "text": "35" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "25 prophets are explicitly named, including Adam, Nuh, Ibrahim, Musa, Isa, and Muhammad (peace be upon them all).",
+          "tags": ["quran", "prophets"]
+        },
+        {
+          "id": "ISLM_033",
+          "text": "Which city was the first capital of the Islamic state?",
+          "options": [
+            { "id": "A", "text": "Makkah" },
+            { "id": "B", "text": "Madinah" },
+            { "id": "C", "text": "Damascus" },
+            { "id": "D", "text": "Baghdad" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Madinah became the capital after the Hijrah in 622 CE.",
+          "tags": ["history", "madinah"]
+        },
+        {
+          "id": "ISLM_034",
+          "text": "What is the night of Laylat al-Qadr better than?",
+          "options": [
+            { "id": "A", "text": "100 nights" },
+            { "id": "B", "text": "1000 months" },
+            { "id": "C", "text": "10 years" },
+            { "id": "D", "text": "100 years" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Laylat al-Qadr is better than a thousand months (Qur’an 97:3).",
+          "tags": ["ramadan", "qadr"]
+        },
+        {
+          "id": "ISLM_035",
+          "text": "Which companion memorized the entire Qur’an during the Prophet’s lifetime?",
+          "options": [
+            { "id": "A", "text": "Abu Bakr (RA)" },
+            { "id": "B", "text": "Umar (RA)" },
+            { "id": "C", "text": "Abdullah ibn Mas’ud (RA)" },
+            { "id": "D", "text": "Many companions" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "MEDIUM",
+          "explanation": "Many companions (Huffaz) memorized the full Qur’an while the Prophet was alive.",
+          "tags": ["companions", "huffaz"]
+        },
+        {
+          "id": "ISLM_036",
+          "text": "What is the Arabic word for 'pilgrimage'?",
+          "options": [
+            { "id": "A", "text": "Umrah" },
+            { "id": "B", "text": "Hajj" },
+            { "id": "C", "text": "Ziyarah" },
+            { "id": "D", "text": "I’tikaf" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Hajj is the fifth pillar performed in Dhul-Hijjah.",
+          "tags": ["pillars", "hajj"]
+        },
+        {
+          "id": "ISLM_037",
+          "text": "Which prophet spoke as a newborn baby?",
+          "options": [
+            { "id": "A", "text": "Yahya (AS)" },
+            { "id": "B", "text": "Isa (AS)" },
+            { "id": "C", "text": "Musa (AS)" },
+            { "id": "D", "text": "Yusuf (AS)" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Prophet Isa (Jesus) spoke from the cradle to defend his mother Maryam.",
+          "tags": ["prophets", "miracles"]
+        },
+        {
+          "id": "ISLM_038",
+          "text": "What is the meaning of 'SAW' we say after the Prophet’s name?",
+          "options": [
+            { "id": "A", "text": "Subhanahu wa Ta’ala" },
+            { "id": "B", "text": "Sallallahu Alayhi Wasallam" },
+            { "id": "C", "text": "Alayhis Salam" },
+            { "id": "D", "text": "Radiyallahu Anhu" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Sallallahu Alayhi Wasallam means 'Peace and blessings be upon him'.",
+          "tags": ["durood", "etiquette"]
+        },
+        {
+          "id": "ISLM_039",
+          "text": "Which surah has the same number of verses as the number of surahs in the Qur’an?",
+          "options": [
+            { "id": "A", "text": "Surah Al-Ikhlas (112)" },
+            { "id": "B", "text": "Surah An-Nas (114)" },
+            { "id": "C", "text": "Surah Al-Kawthar (108)" },
+            { "id": "D", "text": "Surah Al-Asr (103)" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Surah An-Nas is the 114th surah and has 6 verses (but the question refers to its position).",
+          "tags": ["quran", "trivia"]
+        },
+        {
+          "id": "ISLM_040",
+          "text": "What is the reward for performing Hajj Mabrur (accepted Hajj)?",
+          "options": [
+            { "id": "A", "text": "Wealth" },
+            { "id": "B", "text": "Forgiveness of all sins" },
+            { "id": "C", "text": "High status" },
+            { "id": "D", "text": "Long life" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The Prophet (SAW) said: 'There is no reward for accepted Hajj except Paradise.'",
+          "tags": ["hajj", "hadith"]
+        },
+        {
+          "id": "ISLM_041",
+          "text": "Which companion was known as 'The Interpreter of the Qur’an'?",
+          "options": [
+            { "id": "A", "text": "Abu Hurairah" },
+            { "id": "B", "text": "Abdullah ibn Abbas" },
+            { "id": "C", "text": "Abdullah ibn Mas’ud" },
+            { "id": "D", "text": "Zaid ibn Thabit" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Ibn Abbas (RA) was a young cousin of the Prophet and a great scholar of Tafsir.",
+          "tags": ["companions", "tafsir"]
+        },
+        {
+          "id": "ISLM_042",
+          "text": "What is the last verse revealed of the Qur’an?",
+          "options": [
+            { "id": "A", "text": "Verse of Kalalah (4:176)" },
+            { "id": "B", "text": "Verse about usury (2:278)" },
+            { "id": "C", "text": "Verse about completion of religion (5:3)" },
+            { "id": "D", "text": "Verse of debt (2:282)" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Surah Al-Ma’idah 5:3 was revealed during the Farewell Hajj: 'This day I have perfected your religion…'",
+          "tags": ["quran", "revelation"]
+        },
+        {
+          "id": "ISLM_043",
+          "text": "Which prophet was swallowed by a whale?",
+          "options": [
+            { "id": "A", "text": "Yunus (AS)" },
+            { "id": "B", "text": "Nuh (AS)" },
+            { "id": "C", "text": "Lut (AS)" },
+            { "id": "D", "text": "Hud (AS)" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Prophet Yunus (Jonah) spent days inside a whale before being saved.",
+          "tags": ["prophets", "miracles"]
+        },
+        {
+          "id": "ISLM_044",
+          "text": "What is the meaning of 'As-Salamu Alaikum'?",
+          "options": [
+            { "id": "A", "text": "Goodbye" },
+            { "id": "B", "text": "Peace be upon you" },
+            { "id": "C", "text": "Thank you" },
+            { "id": "D", "text": "Welcome" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Islamic greeting of peace.",
+          "tags": ["etiquette", "greetings"]
+        },
+        {
+          "id": "ISLM_045",
+          "text": "Which surah is called 'Umm al-Kitab' (Mother of the Book)?",
+          "options": [
+            { "id": "A", "text": "Surah Al-Fatiha" },
+            { "id": "B", "text": "Surah Al-Baqarah" },
+            { "id": "C", "text": "Surah Yaseen" },
+            { "id": "D", "text": "Surah Al-Ikhlas" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "Al-Fatiha is also called As-Sab’a al-Mathani and Umm al-Qur’an.",
+          "tags": ["quran", "names"]
+        },
+        {
+          "id": "ISLM_046",
+          "text": "How many years did Prophet Nuh (AS) preach to his people?",
+          "options": [
+            { "id": "A", "text": "120 years" },
+            { "id": "B", "text": "500 years" },
+            { "id": "C", "text": "950 years" },
+            { "id": "D", "text": "1000 years" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Qur’an (29:14) states he stayed among them 950 years.",
+          "tags": ["prophets", "quran"]
+        },
+        {
+          "id": "ISLM_047",
+          "text": "What is the reward for fasting on the Day of Arafah (for non-pilgrims)?",
+          "options": [
+            { "id": "A", "text": "Forgiveness of one year’s sins" },
+            { "id": "B", "text": "Forgiveness of two years’ sins" },
+            { "id": "C", "text": "Forgiveness of past and future minor sins" },
+            { "id": "D", "text": "Equal to 1000 days" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Forgiveness of the previous year and the coming year.",
+          "tags": ["fasting", "hajj"]
+        },
+        {
+          "id": "ISLM_048",
+          "text": "Which surah mentions the story of the People of the Cave (Ashab al-Kahf)?",
+          "options": [
+            { "id": "A", "text": "Surah Al-Kahf" },
+            { "id": "B", "text": "Surah Maryam" },
+            { "id": "C", "text": "Surah Yusuf" },
+            { "id": "D", "text": "Surah Al-Feel" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Surah Al-Kahf tells the story of youths who slept for centuries.",
+          "tags": ["quran", "stories"]
+        },
+        {
+          "id": "ISLM_049",
+          "text": "What is the first word revealed of the Qur’an?",
+          "options": [
+            { "id": "A", "text": "Alhamdulillah" },
+            { "id": "B", "text": "Iqra" },
+            { "id": "C", "text": "Bismillah" },
+            { "id": "D", "text": "Allah" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The first word revealed was 'Iqra' (Read/Recite) in Cave Hira.",
+          "tags": ["revelation", "quran"]
+        },
+        {
+          "id": "ISLM_050",
+          "text": "Which prophet is known as 'Father of the Prophets'?",
+          "options": [
+            { "id": "A", "text": "Adam (AS)" },
+            { "id": "B", "text": "Nuh (AS)" },
+            { "id": "C", "text": "Ibrahim (AS)" },
+            { "id": "D", "text": "Musa (AS)" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Prophet Ibrahim (AS) is called Abu al-Anbiya (Father of the Prophets).",
+          "tags": ["prophets", "titles"]
+        }
+      ]
+    }
+  ]
+}

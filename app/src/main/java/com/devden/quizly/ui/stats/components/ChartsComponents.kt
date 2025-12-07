@@ -120,12 +120,15 @@ fun ProgressLineChart(
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(200.dp)
-                        .pointerInput(Unit) {
+                        .pointerInput(dataPoints.size) {
                             detectTapGestures { offset ->
-                                val pointWidth = size.width / (dataPoints.size - 1).coerceAtLeast(1)
-                                val index =
-                                    (offset.x / pointWidth).toInt().coerceIn(0, dataPoints.size - 1)
-                                selectedIndex = if (selectedIndex == index) null else index
+                                if (dataPoints.size > 1) {
+                                    val pointWidth = size.width / (dataPoints.size - 1).toFloat()
+                                    val index = (offset.x / pointWidth).toInt().coerceIn(0, dataPoints.size - 1)
+                                    selectedIndex = if (selectedIndex == index) null else index
+                                } else if (dataPoints.size == 1) {
+                                    selectedIndex = if (selectedIndex == 0) null else 0
+                                }
                             }
                         }
                 ) {
@@ -133,12 +136,22 @@ fun ProgressLineChart(
                     val minValue = dataPoints.minOrNull() ?: 0f
                     val range = (maxValue - minValue).coerceAtLeast(1f)
 
-                    val pointWidth = size.width / (dataPoints.size - 1).coerceAtLeast(1)
-                    val points = dataPoints.mapIndexed { index, value ->
-                        val x = index * pointWidth
-                        val normalizedValue = (value - minValue) / range
-                        val y = size.height - (normalizedValue * (size.height - 40f)) - 20f
-                        Offset(x, y)
+                    val points = if (dataPoints.size > 1) {
+                        val pointWidth = size.width / (dataPoints.size - 1).toFloat()
+                        dataPoints.mapIndexed { index, value ->
+                            val x = index * pointWidth
+                            val normalizedValue = (value - minValue) / range
+                            val y = size.height - (normalizedValue * (size.height - 40f)) - 20f
+                            Offset(x, y)
+                        }
+                    } else {
+                        // Single point - center it
+                        listOf(
+                            Offset(
+                                size.width / 2f,
+                                size.height / 2f
+                            )
+                        )
                     }
 
                     // Draw grid lines
@@ -153,8 +166,8 @@ fun ProgressLineChart(
                     }
 
                     // Draw line with animation
-                    val visiblePoints = (points.size * animatedProgress).toInt().coerceAtLeast(2)
-                    if (visiblePoints >= 2) {
+                    if (points.size >= 2) {
+                        val visiblePoints = (points.size * animatedProgress).toInt().coerceAtLeast(2).coerceAtMost(points.size)
                         val path = Path().apply {
                             moveTo(points[0].x, points[0].y)
                             for (i in 1 until visiblePoints) {
@@ -218,6 +231,34 @@ fun ProgressLineChart(
                                     center = point
                                 )
                             }
+                        }
+                    } else if (points.size == 1) {
+                        // Draw single point
+                        val point = points[0]
+                        val isSelected = selectedIndex == 0
+                        val pointSize = if (isSelected) 12f else 8f
+
+                        // Outer circle
+                        drawCircle(
+                            color = ElectricBlue60,
+                            radius = pointSize,
+                            center = point
+                        )
+
+                        // Inner circle
+                        drawCircle(
+                            color = Color.White,
+                            radius = pointSize - 2f,
+                            center = point
+                        )
+
+                        // Pulse effect for selected
+                        if (isSelected) {
+                            drawCircle(
+                                color = ElectricBlue60.copy(alpha = 0.3f),
+                                radius = pointSize + 8f,
+                                center = point
+                            )
                         }
                     }
                 }

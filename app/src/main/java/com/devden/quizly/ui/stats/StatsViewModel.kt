@@ -9,6 +9,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -29,27 +30,23 @@ class StatsViewModel @Inject constructor(
         viewModelScope.launch {
             _uiState.value = _uiState.value.copy(isLoading = true)
 
-            // Load all statistics
-            scoreDataStore.getAllCategoryStats().collect { categories ->
-                scoreDataStore.totalScore.collect { totalScore ->
-                    scoreDataStore.totalQuizzes.collect { totalQuizzes ->
-                        scoreDataStore.currentStreak.collect { currentStreak ->
-                            scoreDataStore.bestStreak.collect { bestStreak ->
-                                _uiState.value = StatsUiState(
-                                    isLoading = false,
-                                    totalScore = totalScore,
-                                    totalQuizzes = totalQuizzes,
-                                    currentStreak = currentStreak,
-                                    bestStreak = bestStreak,
-                                    categoryScores = categories.filter { it.attempts > 0 },
-                                    allCategoryScores = categories,
-                                    badges = generateBadges(totalScore, totalQuizzes, currentStreak, bestStreak, categories)
-                                )
-                            }
-                        }
-                    }
-                }
-            }
+            // Load all statistics using first() to get single snapshots
+            val categories = scoreDataStore.getAllCategoryStats().first()
+            val totalScore = scoreDataStore.totalScore.first()
+            val totalQuizzes = scoreDataStore.totalQuizzes.first()
+            val currentStreak = scoreDataStore.currentStreak.first()
+            val bestStreak = scoreDataStore.bestStreak.first()
+
+            _uiState.value = StatsUiState(
+                isLoading = false,
+                totalScore = totalScore,
+                totalQuizzes = totalQuizzes,
+                currentStreak = currentStreak,
+                bestStreak = bestStreak,
+                categoryScores = categories.filter { it.attempts > 0 },
+                allCategoryScores = categories,
+                badges = generateBadges(totalScore, totalQuizzes, currentStreak, bestStreak, categories)
+            )
         }
     }
 

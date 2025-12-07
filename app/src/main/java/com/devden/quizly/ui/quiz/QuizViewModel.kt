@@ -12,6 +12,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -30,6 +31,7 @@ class QuizViewModel @Inject constructor(
     val uiState: StateFlow<QuizUiState> = _uiState.asStateFlow()
 
     private var categoryBestScore = 0
+    private var timerJob: kotlinx.coroutines.Job? = null
 
     init {
         loadCategoryBest()
@@ -38,9 +40,7 @@ class QuizViewModel @Inject constructor(
 
     private fun loadCategoryBest() {
         viewModelScope.launch {
-            scoreDataStore.getCategoryBest(category).collect { best ->
-                categoryBestScore = best
-            }
+            categoryBestScore = scoreDataStore.getCategoryBest(category).first()
         }
     }
 
@@ -71,7 +71,10 @@ class QuizViewModel @Inject constructor(
     }
 
     private fun startTimer() {
-        viewModelScope.launch {
+        // Cancel any existing timer first
+        timerJob?.cancel()
+
+        timerJob = viewModelScope.launch {
             while (_uiState.value.timeRemaining > 0 &&
                    !_uiState.value.isAnswered &&
                    !_uiState.value.isQuizComplete) {
@@ -113,6 +116,7 @@ class QuizViewModel @Inject constructor(
         val newScore = if (isCorrect) _uiState.value.score + 10 else _uiState.value.score
         val newStreak = if (isCorrect) _uiState.value.currentStreak + 1 else 0
         val maxStreak = maxOf(_uiState.value.maxStreak, newStreak)
+
 
         _uiState.value = _uiState.value.copy(
             isAnswered = true,
@@ -179,7 +183,9 @@ class QuizViewModel @Inject constructor(
     }
 
     fun restartQuiz() {
+        timerJob?.cancel()
         _uiState.value = QuizUiState()
+        loadCategoryBest()
         loadQuestions()
     }
 }

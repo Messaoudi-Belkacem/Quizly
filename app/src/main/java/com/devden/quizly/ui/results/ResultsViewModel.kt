@@ -10,6 +10,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -37,21 +38,20 @@ class ResultsViewModel @Inject constructor(
 
     private fun loadData() {
         viewModelScope.launch {
-            scoreDataStore.getAllCategoryStats().collect { categories ->
-                val bestCategory = categories.maxByOrNull { it.accuracy }
+            val categories = scoreDataStore.getAllCategoryStats().first()
+            val bestCategory = categories.maxByOrNull { it.accuracy }
 
-                _uiState.value = ResultsUiState(
-                    score = score,
-                    correctAnswers = correctAnswers,
-                    totalQuestions = totalQuestions,
-                    maxStreak = maxStreak,
-                    category = category,
-                    isNewPersonalBest = isNewBest,
-                    previousBest = previousBest,
-                    allCategoryScores = categories,
-                    bestCategory = bestCategory?.category
-                )
-            }
+            _uiState.value = ResultsUiState(
+                score = score,
+                correctAnswers = correctAnswers,
+                totalQuestions = totalQuestions,
+                maxStreak = maxStreak,
+                category = category,
+                isNewPersonalBest = isNewBest,
+                previousBest = previousBest,
+                allCategoryScores = categories,
+                bestCategory = bestCategory?.category
+            )
         }
     }
 }

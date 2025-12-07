@@ -51,7 +51,7 @@ enum class QuizCategory(
         description = "Culinary delights"
     ),
     ISLAM(
-        displayName = "Islams",
+        displayName = "Islam",
         icon = Icons.Default.Mosque,
         description = "Islamic knowledge"
     )

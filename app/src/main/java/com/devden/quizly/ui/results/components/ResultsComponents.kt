@@ -50,15 +50,18 @@ fun AnimatedScoreReveal(
     LaunchedEffect(targetScore) {
         val duration = 2000L
         val steps = 50
-        val increment = targetScore / steps
         val delayTime = duration / steps
 
         repeat(steps) { step ->
             delay(delayTime)
-            currentScore = minOf((step + 1) * increment, targetScore)
+            // Use float division to avoid integer rounding issues
+            val progress = (step + 1).toFloat() / steps.toFloat()
+            currentScore = (targetScore * progress).toInt()
             scale = if (step == steps - 1) 1.2f else 1f
         }
 
+        // Ensure we reach the exact target score
+        currentScore = targetScore
         delay(200)
         scale = 1f
         onComplete()

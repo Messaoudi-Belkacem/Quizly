@@ -54,6 +54,26 @@ enum class QuizCategory(
         displayName = "Islam",
         icon = Icons.Default.Mosque,
         description = "Islamic knowledge"
+    ),
+    AI_ETHICS(
+        displayName = "AI Ethics",
+        icon = Icons.Default.Android,
+        description = "Ethical considerations in AI"
+    ),
+    RESPONSIBILITY_OF_SOCIAL_NETWORKS(
+        displayName = "Responsibility of Social Networks",
+        icon = Icons.Default.Share,
+        description = "Social media ethics"
+    ),
+    ETHICS_IN_IOT(
+        displayName = "Ethics in IoT",
+        icon = Icons.Default.Wifi,
+        description = "Ethical issues in Internet of Things"
+    ),
+    DIGITAL_REVOLUTION(
+        displayName = "Digital Revolution",
+        icon = Icons.Default.Memory,
+        description = "Impact of digital technology"
     )
 }
 

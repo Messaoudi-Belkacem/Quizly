@@ -135,6 +135,10 @@ class QuizRepository @Inject constructor(
             QuizCategory.SPORTS -> 7
             QuizCategory.FOOD -> 8
             QuizCategory.ISLAM -> 9
+            QuizCategory.AI_ETHICS -> 10
+            QuizCategory.RESPONSIBILITY_OF_SOCIAL_NETWORKS -> 11
+            QuizCategory.ETHICS_IN_IOT -> 12
+            QuizCategory.DIGITAL_REVOLUTION -> 13
         }
     }
 

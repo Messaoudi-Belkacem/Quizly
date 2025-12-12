@@ -297,6 +297,10 @@ fun getCategoryColor(category: QuizCategory): Color {
         QuizCategory.SPORTS -> CategorySports
         QuizCategory.FOOD -> CategoryFood
         QuizCategory.ISLAM -> CategoryIslam
+        QuizCategory.AI_ETHICS -> CategoryAIEthics
+        QuizCategory.RESPONSIBILITY_OF_SOCIAL_NETWORKS -> CategoryResponsibiltyOfSocialNetworks
+        QuizCategory.ETHICS_IN_IOT -> CategoryEthicsInIoT
+        QuizCategory.DIGITAL_REVOLUTION -> CategoryDigitalRevolution
     }
 }
 

@@ -47,12 +47,16 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.devden.quizly.data.local.CategoryScore
 import com.devden.quizly.data.model.QuizCategory
+import com.devden.quizly.ui.theme.CategoryAIEthics
+import com.devden.quizly.ui.theme.CategoryDigitalRevolution
+import com.devden.quizly.ui.theme.CategoryEthicsInIoT
 import com.devden.quizly.ui.theme.CategoryFood
 import com.devden.quizly.ui.theme.CategoryGames
 import com.devden.quizly.ui.theme.CategoryGeography
 import com.devden.quizly.ui.theme.CategoryHistory
 import com.devden.quizly.ui.theme.CategoryIslam
 import com.devden.quizly.ui.theme.CategoryLiterature
+import com.devden.quizly.ui.theme.CategoryResponsibiltyOfSocialNetworks
 import com.devden.quizly.ui.theme.CategoryScience
 import com.devden.quizly.ui.theme.CategorySports
 import com.devden.quizly.ui.theme.CategoryTechnology
@@ -514,6 +518,10 @@ private fun getCategoryColor(category: QuizCategory): Color {
         QuizCategory.SPORTS -> CategorySports
         QuizCategory.FOOD -> CategoryFood
         QuizCategory.ISLAM -> CategoryIslam
+        QuizCategory.AI_ETHICS -> CategoryAIEthics
+        QuizCategory.RESPONSIBILITY_OF_SOCIAL_NETWORKS -> CategoryResponsibiltyOfSocialNetworks
+        QuizCategory.ETHICS_IN_IOT -> CategoryEthicsInIoT
+        QuizCategory.DIGITAL_REVOLUTION -> CategoryDigitalRevolution
     }
 }
 

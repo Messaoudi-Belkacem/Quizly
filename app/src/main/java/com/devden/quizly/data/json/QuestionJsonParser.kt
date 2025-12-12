@@ -97,7 +97,10 @@ class QuestionJsonParser @Inject constructor(
             7 -> "music"
             8 -> "technology"
             9 -> "sports"
-            10 -> "food"
+            10 -> "AI ethics"
+            11 -> "Responsibility of Social Networks"
+            12 -> "Ethics in IoT"
+            13 -> "Digital Revolution"
             else -> "questions"
         }
     }

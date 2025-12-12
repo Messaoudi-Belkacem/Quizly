@@ -3522,6 +3522,1578 @@
           "tags": ["prophets", "titles"]
         }
       ]
+    },
+    {
+      "id": 10,
+      "name": "Legal and Ethical Framework for AI",
+      "icon": "scale",
+      "color": "#3B82F6",
+      "questions": [
+        {
+          "id": "AETH_001",
+          "text": "Which branch of philosophy systematically examines right and wrong to guide moral behavior?",
+          "options": [
+            { "id": "A", "text": "Morality" },
+            { "id": "B", "text": "Deontology" },
+            { "id": "C", "text": "Ethics" },
+            { "id": "D", "text": "Legality" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Ethics is the philosophical study of right and wrong, guiding individual and collective behavior.",
+          "tags": ["ethics", "philosophy"]
+        },
+        {
+          "id": "AETH_002",
+          "text": "In the context of technology, morality is best described as:",
+          "options": [
+            { "id": "A", "text": "Professional rules of conduct" },
+            { "id": "B", "text": "Societal norms and cultural values" },
+            { "id": "C", "text": "Legal regulations" },
+            { "id": "D", "text": "Universal ethical principles" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Morality encompasses societal norms, traditions, and cultural values that define acceptable behavior.",
+          "tags": ["morality", "society"]
+        },
+        {
+          "id": "AETH_003",
+          "text": "Which of the following is a deontological concern in AI?",
+          "options": [
+            { "id": "A", "text": "Cultural acceptance of automation" },
+            { "id": "B", "text": "Privacy vs. public safety in surveillance" },
+            { "id": "C", "text": "A software engineer's duty to report unsafe code" },
+            { "id": "D", "text": "Impact of AI on employment" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Deontology refers to professional duties and rules, such as a programmer's responsibility to ensure safety.",
+          "tags": ["deontology", "professional ethics"]
+        },
+        {
+          "id": "AETH_004",
+          "text": "The PAPA model in ICT ethics was proposed by:",
+          "options": [
+            { "id": "A", "text": "John McCarthy" },
+            { "id": "B", "text": "Richard Mason" },
+            { "id": "C", "text": "Tim Berners-Lee" },
+            { "id": "D", "text": "Alan Turing" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Richard Mason introduced the PAPA model in 1986 to address ethical issues in ICT.",
+          "tags": ["PAPA model", "ICT ethics"]
+        },
+        {
+          "id": "AETH_005",
+          "text": "Which component of the PAPA model is concerned with protecting intellectual property?",
+          "options": [
+            { "id": "A", "text": "Privacy" },
+            { "id": "B", "text": "Accuracy" },
+            { "id": "C", "text": "Property" },
+            { "id": "D", "text": "Accessibility" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Property in the PAPA model refers to intellectual property rights and protection.",
+          "tags": ["PAPA model", "intellectual property"]
+        },
+        {
+          "id": "AETH_006",
+          "text": "The term 'Artificial Intelligence' was coined at which conference?",
+          "options": [
+            { "id": "A", "text": "Stanford AI Conference (1965)" },
+            { "id": "B", "text": "Dartmouth Conference (1956)" },
+            { "id": "C", "text": "MIT Symposium (1970)" },
+            { "id": "D", "text": "Turing Conference (1950)" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Dartmouth Conference in 1956 is widely considered the birth of AI as a field.",
+          "tags": ["AI history", "Dartmouth"]
+        },
+        {
+          "id": "AETH_007",
+          "text": "Which of the following is an example of Narrow AI?",
+          "options": [
+            { "id": "A", "text": "A chatbot with general reasoning abilities" },
+            { "id": "B", "text": "A system that can perform any intellectual task a human can" },
+            { "id": "C", "text": "Siri or Alexa performing specific tasks" },
+            { "id": "D", "text": "A self-aware robot" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Narrow AI is designed for specific tasks (e.g., voice assistants) and does not possess general intelligence.",
+          "tags": ["narrow AI", "applications"]
+        },
+        {
+          "id": "AETH_008",
+          "text": "Which ethical principle requires AI decisions to be interpretable?",
+          "options": [
+            { "id": "A", "text": "Fairness" },
+            { "id": "B", "text": "Transparency" },
+            { "id": "C", "text": "Accountability" },
+            { "id": "D", "text": "Security" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Transparency involves making AI systems understandable and explainable to users.",
+          "tags": ["transparency", "ethical principles"]
+        },
+        {
+          "id": "AETH_009",
+          "text": "Which organization released the 'Montreal Declaration for Responsible AI'?",
+          "options": [
+            { "id": "A", "text": "European Commission" },
+            { "id": "B", "text": "University of Montreal" },
+            { "id": "C", "text": "UNESCO" },
+            { "id": "D", "text": "Partnership on AI" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The Montreal Declaration was developed by researchers at the University of Montreal in 2018.",
+          "tags": ["Montreal Declaration", "governance"]
+        },
+        {
+          "id": "AETH_010",
+          "text": "The EU AI Act classifies AI systems based on:",
+          "options": [
+            { "id": "A", "text": "Their development cost" },
+            { "id": "B", "text": "Their level of risk" },
+            { "id": "C", "text": "Their country of origin" },
+            { "id": "D", "text": "Their market size" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The EU AI Act categorizes AI into unacceptable, high, limited, and minimal risk levels.",
+          "tags": ["EU AI Act", "regulation"]
+        },
+        {
+          "id": "AETH_011",
+          "text": "Which of the following is considered an 'unacceptable risk' under the EU AI Act?",
+          "options": [
+            { "id": "A", "text": "Chatbots for customer service" },
+            { "id": "C", "text": "Social scoring systems" },
+            { "id": "B", "text": "AI in medical devices" },
+            { "id": "D", "text": "Autonomous vehicles" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Social scoring systems are banned under the EU AI Act due to their threat to fundamental rights.",
+          "tags": ["EU AI Act", "unacceptable risk"]
+        },
+        {
+          "id": "AETH_012",
+          "text": "The Partnership on AI was founded in:",
+          "options": [
+            { "id": "A", "text": "2010" },
+            { "id": "B", "text": "2014" },
+            { "id": "C", "text": "2016" },
+            { "id": "D", "text": "2018" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The Partnership on AI was established in 2016 by major tech companies and civil society groups.",
+          "tags": ["Partnership on AI", "governance"]
+        },
+        {
+          "id": "AETH_013",
+          "text": "Which ethical principle is violated if an AI hiring tool favors one gender over another?",
+          "options": [
+            { "id": "A", "text": "Transparency" },
+            { "id": "B", "text": "Fairness" },
+            { "id": "C", "text": "Privacy" },
+            { "id": "D", "text": "Security" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Fairness requires AI systems to avoid discrimination based on gender, race, or other protected characteristics.",
+          "tags": ["fairness", "bias"]
+        },
+        {
+          "id": "AETH_014",
+          "text": "Which real-world example illustrates an ethical dilemma in AI surveillance?",
+          "options": [
+            { "id": "A", "text": "Boeing 737 MAX software flaws" },
+            { "id": "B", "text": "China's social credit system" },
+            { "id": "C", "text": "TikTok's addictive algorithms" },
+            { "id": "D", "text": "Equifax data breach" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "China's social credit system raises ethical questions about surveillance, privacy, and human dignity.",
+          "tags": ["surveillance", "ethical dilemmas"]
+        },
+        {
+          "id": "AETH_015",
+          "text": "Which of the following is a moral dilemma related to AI?",
+          "options": [
+            { "id": "A", "text": "Bias in a recidivism prediction tool" },
+            { "id": "B", "text": "Using copyrighted data without permission" },
+            { "id": "C", "text": "Developing addictive social media algorithms" },
+            { "id": "D", "text": "Failure to report a software safety flaw" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Moral dilemmas involve societal values, such as the ethics of designing algorithms that exploit psychological vulnerabilities.",
+          "tags": ["moral dilemmas", "social media"]
+        },
+        {
+          "id": "AETH_016",
+          "text": "The ACM Code of Ethics is an example of:",
+          "options": [
+            { "id": "A", "text": "Legal regulation" },
+            { "id": "B", "text": "Moral guideline" },
+            { "id": "C", "text": "Deontological code" },
+            { "id": "D", "text": "Corporate policy" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The ACM Code of Ethics is a professional deontological code guiding the conduct of computing professionals.",
+          "tags": ["deontology", "ACM"]
+        },
+        {
+          "id": "AETH_017",
+          "text": "Which principle of the PAPA model addresses the digital divide?",
+          "options": [
+            { "id": "A", "text": "Privacy" },
+            { "id": "B", "text": "Accuracy" },
+            { "id": "C", "text": "Property" },
+            { "id": "D", "text": "Accessibility" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "EASY",
+          "explanation": "Accessibility focuses on equitable access to technology and bridging the digital divide.",
+          "tags": ["accessibility", "digital divide"]
+        },
+        {
+          "id": "AETH_018",
+          "text": "General AI is characterized by:",
+          "options": [
+            { "id": "A", "text": "Performing specific tasks efficiently" },
+            { "id": "B", "text": "Human-like general intelligence across diverse tasks" },
+            { "id": "C", "text": "Being currently widely deployed" },
+            { "id": "D", "text": "Lacking any learning capability" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "General AI refers to systems with human-like intelligence capable of performing any intellectual task.",
+          "tags": ["general AI", "definitions"]
+        },
+        {
+          "id": "AETH_019",
+          "text": "Which of the following is a key principle in Google's AI ethics charter?",
+          "options": [
+            { "id": "A", "text": "Maximizing profit" },
+            { "id": "B", "text": "Avoiding social benefit" },
+            { "id": "C", "text": "Avoiding bias" },
+            { "id": "D", "text": "Prioritizing speed over safety" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Google's AI principles include avoiding bias, ensuring safety, and promoting social benefit.",
+          "tags": ["Google AI principles", "corporate ethics"]
+        },
+        {
+          "id": "AETH_020",
+          "text": "The 2010 Flash Crash is an example of a failure in which PAPA component?",
+          "options": [
+            { "id": "A", "text": "Privacy" },
+            { "id": "B", "text": "Accuracy" },
+            { "id": "C", "text": "Property" },
+            { "id": "D", "text": "Accessibility" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The Flash Crash was caused by inaccurate algorithmic trading, highlighting the importance of data reliability.",
+          "tags": ["accuracy", "algorithmic trading"]
+        },
+        {
+          "id": "AETH_021",
+          "text": "Which ethical principle is most closely related to data encryption in health apps?",
+          "options": [
+            { "id": "A", "text": "Transparency" },
+            { "id": "B", "text": "Fairness" },
+            { "id": "C", "text": "Security" },
+            { "id": "D", "text": "Accountability" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Security involves protecting data from breaches, often through encryption and compliance with standards like HIPAA.",
+          "tags": ["security", "data privacy"]
+        },
+        {
+          "id": "AETH_022",
+          "text": "The OECD AI principles emphasize:",
+          "options": [
+            { "id": "A", "text": "Maximizing AI development speed" },
+            { "id": "B", "text": "Robust, safe, fair, and trustworthy AI" },
+            { "id": "C", "text": "Banning all high-risk AI" },
+            { "id": "D", "text": "Promoting AI only in wealthy nations" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The OECD promotes AI that is robust, safe, fair, and trustworthy, with principles updated in 2025.",
+          "tags": ["OECD", "AI principles"]
+        },
+        {
+          "id": "AETH_023",
+          "text": "Which of the following is an example of AI in healthcare?",
+          "options": [
+            { "id": "A", "text": "Tesla Autopilot" },
+            { "id": "B", "text": "Amazon Rekognition" },
+            { "id": "C", "text": "Google's DeepMind for protein folding" },
+            { "id": "D", "text": "Renaissance Technologies trading" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "DeepMind's AlphaFold predicts protein structures, aiding drug discovery and healthcare research.",
+          "tags": ["AI in healthcare", "applications"]
+        },
+        {
+          "id": "AETH_024",
+          "text": "The EU high-level expert group on AI was established in:",
+          "options": [
+            { "id": "A", "text": "2016" },
+            { "id": "B", "text": "2018" },
+            { "id": "C", "text": "2020" },
+            { "id": "D", "text": "2022" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The European Commission formed the high-level expert group in 2018 to guide trustworthy AI development.",
+          "tags": ["EU AI governance", "expert group"]
+        },
+        {
+          "id": "AETH_025",
+          "text": "Which of the following is a deontological dilemma?",
+          "options": [
+            { "id": "A", "text": "Whether to use facial recognition in public spaces" },
+            { "id": "B", "text": "A programmer hiding a known safety flaw" },
+            { "id": "C", "text": "The societal impact of automation on jobs" },
+            { "id": "D", "text": "Cultural acceptance of software piracy" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Deontological dilemmas involve professional duties, such as the obligation to report safety issues.",
+          "tags": ["deontological dilemmas", "professional ethics"]
+        },
+        {
+          "id": "AETH_026",
+          "text": "UNESCO's ethical recommendations for AI include:",
+          "options": [
+            { "id": "A", "text": "Safety, responsibility, transparency" },
+            { "id": "B", "text": "Profit maximization, speed, secrecy" },
+            { "id": "C", "text": "Autonomy, exclusivity, competition" },
+            { "id": "D", "text": "Surveillance, control, automation" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "UNESCO promotes human-centered AI with principles like safety, responsibility, transparency, and fairness.",
+          "tags": ["UNESCO", "ethical recommendations"]
+        },
+        {
+          "id": "AETH_027",
+          "text": "Which of the following is an example of an ethical dilemma in AI?",
+          "options": [
+            { "id": "A", "text": "Using copyrighted art in AI training" },
+            { "id": "B", "text": "Software piracy" },
+            { "id": "C", "text": "Balancing surveillance and civil liberties" },
+            { "id": "D", "text": "Ignoring professional safety standards" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Ethical dilemmas involve weighing competing values, such as public safety vs. privacy in surveillance systems.",
+          "tags": ["ethical dilemmas", "surveillance"]
+        },
+        {
+          "id": "AETH_028",
+          "text": "The 'right to explanation' in the EU refers to:",
+          "options": [
+            { "id": "A", "text": "The right to access AI source code" },
+            { "id": "B", "text": "The right to know why an AI made a decision" },
+            { "id": "C", "text": "The right to refuse AI services" },
+            { "id": "D", "text": "The right to own AI-generated content" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The 'right to explanation' is part of the GDPR and EU AI Act, requiring transparency in automated decisions.",
+          "tags": ["right to explanation", "transparency"]
+        },
+        {
+          "id": "AETH_029",
+          "text": "Which of the following initiatives aims to bridge the urban-rural digital divide?",
+          "options": [
+            { "id": "A", "text": "GDPR" },
+            { "id": "B", "text": "Digital India program" },
+            { "id": "C", "text": "EU AI Act" },
+            { "id": "D", "text": "Montreal Declaration" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "India's Digital India program aims to improve digital infrastructure and access in rural areas.",
+          "tags": ["digital divide", "accessibility"]
+        },
+        {
+          "id": "AETH_030",
+          "text": "Responsibility and accountability in AI governance refer to:",
+          "options": [
+            { "id": "A", "text": "Making algorithms faster" },
+            { "id": "B", "text": "Assigning liability for AI outcomes" },
+            { "id": "C", "text": "Ensuring AI is used only by governments" },
+            { "id": "D", "text": "Protecting AI patents" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Responsibility and accountability involve defining who is liable when AI systems cause harm or errors.",
+          "tags": ["accountability", "responsibility"]
+        },
+        {
+          "id": "AETH_031",
+          "text": "Which of the following is a key concern in AI intellectual property?",
+          "options": [
+            { "id": "A", "text": "Data encryption" },
+            { "id": "B", "text": "Using copyrighted works in training data" },
+            { "id": "C", "text": "Algorithmic transparency" },
+            { "id": "D", "text": "Digital divide" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Intellectual property concerns in AI include using copyrighted material (e.g., art, text) without permission for training.",
+          "tags": ["intellectual property", "copyright"]
+        },
+        {
+          "id": "AETH_032",
+          "text": "The Equifax data hack is an example of a failure in which ethical area?",
+          "options": [
+            { "id": "A", "text": "Moral norms" },
+            { "id": "B", "text": "Deontological duties" },
+            { "id": "C", "text": "Corporate accountability and privacy" },
+            { "id": "D", "text": "Intellectual property" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The Equifax breach raised ethical questions about corporate responsibility in protecting user data.",
+          "tags": ["privacy", "corporate accountability"]
+        },
+        {
+          "id": "AETH_033",
+          "text": "Which AI application raises significant privacy concerns?",
+          "options": [
+            { "id": "A", "text": "Precision farming drones" },
+            { "id": "B", "text": "Amazon Rekognition" },
+            { "id": "C", "text": "Predictive maintenance in manufacturing" },
+            { "id": "D", "text": "Algorithmic trading" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Amazon Rekognition, a facial and voice recognition system, raises concerns about surveillance and privacy.",
+          "tags": ["privacy", "recognition technology"]
+        },
+        {
+          "id": "AETH_034",
+          "text": "The COMPAS recidivism tool is an example of:",
+          "options": [
+            { "id": "A", "text": "A transparent and fair AI system" },
+            { "id": "B", "text": "An AI system with no ethical issues" },
+            { "id": "C", "text": "Bias and discrimination in AI" },
+            { "id": "D", "text": "Strong AI achievement" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "COMPAS has been criticized for racial bias, illustrating fairness and discrimination challenges in AI.",
+          "tags": ["bias", "fairness"]
+        },
+        {
+          "id": "AETH_035",
+          "text": "Which principle is part of Microsoft's AI ethics charter?",
+          "options": [
+            { "id": "A", "text": "Maximizing user engagement at all costs" },
+            { "id": "B", "text": "Fairness, reliability, and privacy" },
+            { "id": "C", "text": "Avoiding all government regulation" },
+            { "id": "D", "text": "Prioritizing profit over safety" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Microsoft's AI principles include fairness, reliability, privacy, inclusivity, transparency, and accountability.",
+          "tags": ["Microsoft AI principles", "corporate ethics"]
+        },
+        {
+          "id": "AETH_036",
+          "text": "Which of the following is a focus of the Montreal Declaration?",
+          "options": [
+            { "id": "A", "text": "Well-being, autonomy, and solidarity" },
+            { "id": "B", "text": "Maximizing AI efficiency" },
+            { "id": "C", "text": "Promoting AI in military applications" },
+            { "id": "D", "text": "Reducing AI transparency for competitiveness" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "The Montreal Declaration outlines principles like well-being, autonomy, justice, and solidarity for responsible AI.",
+          "tags": ["Montreal Declaration", "principles"]
+        },
+        {
+          "id": "AETH_037",
+          "text": "Which organization updated its AI principles in 2025?",
+          "options": [
+            { "id": "A", "text": "OECD" },
+            { "id": "B", "text": "UNESCO" },
+            { "id": "C", "text": "Both A and B" },
+            { "id": "D", "text": "Neither A nor B" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Both OECD and UNESCO updated their AI guidelines and toolkits in 2025.",
+          "tags": ["OECD", "UNESCO", "2025 updates"]
+        },
+        {
+          "id": "AETH_038",
+          "text": "AI in agriculture includes:",
+          "options": [
+            { "id": "A", "text": "Autonomous vehicles" },
+            { "id": "B", "text": "Drones for soil analysis" },
+            { "id": "C", "text": "Facial recognition" },
+            { "id": "D", "text": "Algorithmic trading" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "AI in agriculture uses drones and sensors for precision farming, soil health analysis, and crop monitoring.",
+          "tags": ["AI in agriculture", "applications"]
+        },
+        {
+          "id": "AETH_039",
+          "text": "Which of the following is a high-risk application under the EU AI Act?",
+          "options": [
+            { "id": "A", "text": "Spam filters" },
+            { "id": "B", "text": "Biometric identification systems" },
+            { "id": "C", "text": "Video game AI" },
+            { "id": "D", "text": "Calculator apps" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Biometric identification is classified as high-risk due to its impact on fundamental rights.",
+          "tags": ["high-risk AI", "EU AI Act"]
+        },
+        {
+          "id": "AETH_040",
+          "text": "The Boeing 737 MAX software flaw is an example of:",
+          "options": [
+            { "id": "A", "text": "A moral dilemma" },
+            { "id": "B", "text": "A deontological failure" },
+            { "id": "C", "text": "An accessibility issue" },
+            { "id": "D", "text": "An intellectual property violation" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The Boeing case highlights a failure in professional duty and safety standards, a deontological issue.",
+          "tags": ["deontology", "safety"]
+        },
+        {
+          "id": "AETH_041",
+          "text": "Which AI ethical principle is most related to preventing algorithmic bias?",
+          "options": [
+            { "id": "A", "text": "Transparency" },
+            { "id": "B", "text": "Fairness" },
+            { "id": "C", "text": "Security" },
+            { "id": "D", "text": "Accountability" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Fairness involves ensuring AI does not discriminate and treats all groups equitably.",
+          "tags": ["fairness", "bias"]
+        },
+        {
+          "id": "AETH_042",
+          "text": "Stable Diffusion's use of artists' works without permission raises issues of:",
+          "options": [
+            { "id": "A", "text": "Privacy" },
+            { "id": "B", "text": "Accuracy" },
+            { "id": "C", "text": "Intellectual property" },
+            { "id": "D", "text": "Accessibility" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Using copyrighted art in AI training data breaches intellectual property rights.",
+          "tags": ["intellectual property", "generative AI"]
+        },
+        {
+          "id": "AETH_043",
+          "text": "Which of the following is a goal of the Partnership on AI?",
+          "options": [
+            { "id": "A", "text": "To accelerate AI development without oversight" },
+            { "id": "B", "text": "To develop frameworks for safe and beneficial AI" },
+            { "id": "C", "text": "To promote AI only in the private sector" },
+            { "id": "D", "text": "To replace government regulation" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The Partnership on AI works on best practices, guidelines, and frameworks for responsible AI.",
+          "tags": ["Partnership on AI", "governance"]
+        },
+        {
+          "id": "AETH_044",
+          "text": "TikTok's addictive algorithms are primarily a:",
+          "options": [
+            { "id": "A", "text": "Legal issue" },
+            { "id": "B", "text": "Moral dilemma" },
+            { "id": "C", "text": "Deontological violation" },
+            { "id": "D", "text": "Transparency problem" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Addictive algorithms raise moral questions about exploiting psychological vulnerabilities for profit.",
+          "tags": ["moral dilemmas", "social media"]
+        },
+        {
+          "id": "AETH_045",
+          "text": "Which AI application is used in finance?",
+          "options": [
+            { "id": "A", "text": "Tesla Autopilot" },
+            { "id": "B", "text": "Renaissance Technologies algorithmic trading" },
+            { "id": "C", "text": "Google DeepMind" },
+            { "id": "D", "text": "Amazon Rekognition" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Algorithmic trading firms like Renaissance Technologies use AI to optimize financial investments.",
+          "tags": ["AI in finance", "applications"]
+        },
+        {
+          "id": "AETH_046",
+          "text": "The GDPR is primarily concerned with:",
+          "options": [
+            { "id": "A", "text": "AI transparency" },
+            { "id": "B", "text": "Data privacy and protection" },
+            { "id": "C", "text": "Intellectual property" },
+            { "id": "D", "text": "Digital divide" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The General Data Protection Regulation (GDPR) focuses on data privacy, security, and user rights.",
+          "tags": ["GDPR", "privacy"]
+        },
+        {
+          "id": "AETH_047",
+          "text": "Which of the following is a principle of trustworthy AI according to the EU?",
+          "options": [
+            { "id": "A", "text": "Secrecy" },
+            { "id": "B", "text": "Human dignity and freedom" },
+            { "id": "C", "text": "Maximized surveillance" },
+            { "id": "D", "text": "Unlimited data collection" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The EU's framework for trustworthy AI emphasizes human dignity, freedom, democracy, equality, and justice.",
+          "tags": ["trustworthy AI", "EU principles"]
+        },
+        {
+          "id": "AETH_048",
+          "text": "Predictive maintenance in manufacturing is an example of:",
+          "options": [
+            { "id": "A", "text": "Narrow AI" },
+            { "id": "B", "text": "General AI" },
+            { "id": "C", "text": "Strong AI" },
+            { "id": "D", "text": "Theoretical AI" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "EASY",
+          "explanation": "Predictive maintenance uses AI for a specific task (reducing downtime), characteristic of Narrow AI.",
+          "tags": ["narrow AI", "industrial applications"]
+        },
+        {
+          "id": "AETH_049",
+          "text": "Which of the following universities is mentioned for advancing AI ethics research?",
+          "options": [
+            { "id": "A", "text": "Harvard and Yale" },
+            { "id": "B", "text": "Stanford and Cambridge" },
+            { "id": "C", "text": "MIT and Caltech" },
+            { "id": "D", "text": "Oxford and Princeton" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Stanford and Cambridge are highlighted for their research centers and contributions to applied AI ethics.",
+          "tags": ["academic initiatives", "AI ethics research"]
+        },
+        {
+          "id": "AETH_050",
+          "text": "The main purpose of ethical frameworks in AI is to:",
+          "options": [
+            { "id": "A", "text": "Speed up AI development" },
+            { "id": "B", "text": "Ensure AI benefits society while minimizing harm" },
+            { "id": "C", "text": "Replace legal regulations" },
+            { "id": "D", "text": "Limit public access to AI" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Ethical frameworks guide the responsible development and use of AI to promote societal good and prevent harm.",
+          "tags": ["ethical frameworks", "purpose"]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Responsibility of Social Networks",
+      "icon": "network",
+      "color": "#8B5CF6",
+      "questions": [
+        {
+          "id": "SN_001",
+          "text": "What is the primary definition of a social network?",
+          "options": [
+            { "id": "A", "text": "A business tool for marketing and advertising" },
+            { "id": "B", "text": "A digital platform for creating profiles, sharing content, and interacting" },
+            { "id": "C", "text": "A government-regulated communication service" },
+            { "id": "D", "text": "An offline community gathering space" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A social network is defined as a digital platform enabling users to create profiles, generate and share content, and interact through features like posting and messaging.",
+          "tags": ["definition", "social network"]
+        },
+        {
+          "id": "SN_002",
+          "text": "Which platform is specifically tailored for professional networking and career development?",
+          "options": [
+            { "id": "A", "text": "TikTok" },
+            { "id": "B", "text": "Instagram" },
+            { "id": "C", "text": "LinkedIn" },
+            { "id": "D", "text": "X (Twitter)" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "LinkedIn is designed for professional networking, job postings, and career development.",
+          "tags": ["examples", "platforms"]
+        },
+        {
+          "id": "SN_003",
+          "text": "Which type of responsibility involves liabilities for damages to third parties through disseminated content?",
+          "options": [
+            { "id": "A", "text": "Criminal Responsibility" },
+            { "id": "B", "text": "Civil Responsibility" },
+            { "id": "C", "text": "Contractual Responsibility" },
+            { "id": "D", "text": "Ethical Responsibility" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Civil responsibility pertains to liabilities for damages inflicted on third parties through content on the platform.",
+          "tags": ["civil responsibility", "liability"]
+        },
+        {
+          "id": "SN_004",
+          "text": "Which U.S. law provides immunity from civil liability for user-generated content, but has seen narrowed protection in 2025?",
+          "options": [
+            { "id": "A", "text": "First Amendment" },
+            { "id": "B", "text": "Digital Millennium Copyright Act" },
+            { "id": "C", "text": "Section 230 of the Communications Decency Act" },
+            { "id": "D", "text": "COPPA" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Section 230 grants immunity, but recent court interpretations in 2025 have reduced protection in cases involving algorithmic amplification of harmful posts.",
+          "tags": ["civil responsibility", "Section 230", "US law"]
+        },
+        {
+          "id": "SN_005",
+          "text": "Which responsibility regime involves obligations from Terms of Service (ToS) or user agreements?",
+          "options": [
+            { "id": "A", "text": "Criminal Responsibility" },
+            { "id": "B", "text": "Ethical Responsibility" },
+            { "id": "C", "text": "Contractual Responsibility" },
+            { "id": "D", "text": "Social Responsibility" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Contractual responsibility is based on the platform's commitments in its Terms of Service or user agreements.",
+          "tags": ["contractual responsibility", "ToS"]
+        },
+        {
+          "id": "SN_006",
+          "text": "In which jurisdiction are crimes committed via social media treated as local offenses?",
+          "options": [
+            { "id": "A", "text": "United States" },
+            { "id": "B", "text": "European Union" },
+            { "id": "C", "text": "UAE" },
+            { "id": "D", "text": "United Kingdom" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "In the UAE, social media crimes are prosecuted as local offenses, holding platforms accountable.",
+          "tags": ["criminal responsibility", "jurisdiction", "UAE"]
+        },
+        {
+          "id": "SN_007",
+          "text": "What is a key social issue related to social network management mentioned for 2025?",
+          "options": [
+            { "id": "A", "text": "Decrease in user engagement" },
+            { "id": "B", "text": "Increased cyberharassment under anonymity" },
+            { "id": "C", "text": "Over-regulation by governments" },
+            { "id": "D", "text": "Decline in advertising revenue" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A highlighted social issue for 2025 is increased harassment enabled by anonymous interactions on platforms.",
+          "tags": ["social issues", "cyberharassment", "2025"]
+        },
+        {
+          "id": "SN_008",
+          "text": "Which economic issue is driven by targeted advertising and data monetization?",
+          "options": [
+            { "id": "A", "text": "Digital divide" },
+            { "id": "B", "text": "User profiling concerns" },
+            { "id": "C", "text": "Algorithmic bias" },
+            { "id": "D", "text": "Content saturation" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Targeted advertising relies on user profiling, raising significant privacy and ethical concerns.",
+          "tags": ["economic issues", "advertising", "data monetization"]
+        },
+        {
+          "id": "SN_009",
+          "text": "What technological risk is heightened by AI integration in social networks by 2025?",
+          "options": [
+            { "id": "A", "text": "Decreased platform usability" },
+            { "id": "B", "text": "Higher subscription costs" },
+            { "id": "C", "text": "Data security breaches and privacy violations" },
+            { "id": "D", "text": "Slower content delivery" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Advanced AI integration increases risks related to data security, privacy breaches, and ethical misuse.",
+          "tags": ["technological issues", "AI", "privacy", "2025"]
+        },
+        {
+          "id": "SN_010",
+          "text": "Which European regulation mandates stringent personal data protection for social networks?",
+          "options": [
+            { "id": "A", "text": "Digital Services Act (DSA)" },
+            { "id": "B", "text": "e-Commerce Directive" },
+            { "id": "C", "text": "General Data Protection Regulation (GDPR)" },
+            { "id": "D", "text": "COPPA" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "The GDPR is the key EU regulation enforcing strict rules on personal data protection and privacy.",
+          "tags": ["GDPR", "European legislation", "data protection"]
+        },
+        {
+          "id": "SN_011",
+          "text": "Which act, fully enforced by 2025, imposes content moderation and minor protection obligations on platforms in the EU?",
+          "options": [
+            { "id": "A", "text": "Digital Markets Act (DMA)" },
+            { "id": "B", "text": "Digital Services Act (DSA)" },
+            { "id": "C", "text": "AI Act" },
+            { "id": "D", "text": "Copyright Directive" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The Digital Services Act (DSA), fully enforced by 2025, sets strict rules for content moderation and protecting minors online.",
+          "tags": ["DSA", "European legislation", "content moderation", "2025"]
+        },
+        {
+          "id": "SN_012",
+          "text": "What is a best practice for social networks to ensure accountability and transparency?",
+          "options": [
+            { "id": "A", "text": "Increasing advertising rates" },
+            { "id": "B", "text": "Conducting algorithm audits for bias" },
+            { "id": "C", "text": "Reducing user data collection" },
+            { "id": "D", "text": "Limiting user sign-ups" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Algorithm audits help identify and mitigate bias, promoting transparency and fairness in content recommendation systems.",
+          "tags": ["best practices", "algorithm audits", "transparency"]
+        },
+        {
+          "id": "SN_013",
+          "text": "Which 2025 example involved the spread of fake news via bots on platforms like X?",
+          "options": [
+            { "id": "A", "text": "Meta data breach" },
+            { "id": "B", "text": "Russian disinformation operations" },
+            { "id": "C", "text": "TikTok algorithm lawsuit" },
+            { "id": "D", "text": "LinkedIn job scam" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "In 2024-2025, Russian disinformation networks used AI-enhanced bots to spread fake news on platforms like X (Twitter).",
+          "tags": ["disinformation", "2025", "case study", "bots"]
+        },
+        {
+          "id": "SN_014",
+          "text": "What is a major challenge in algorithmic moderation of sensitive content?",
+          "options": [
+            { "id": "A", "text": "Over-removal of harmless posts" },
+            { "id": "B", "text": "Inability to detect user intent" },
+            { "id": "C", "text": "Speed of processing" },
+            { "id": "D", "text": "Cost of implementation" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Algorithms often struggle to understand context and intent, leading to inconsistent removal of hate speech or deepfakes.",
+          "tags": ["moderation", "algorithms", "sensitive content", "challenge"]
+        },
+        {
+          "id": "SN_015",
+          "text": "Which U.S. law is designed to protect the privacy of children under 13 online?",
+          "options": [
+            { "id": "A", "text": "GDPR" },
+            { "id": "B", "text": "DMCA" },
+            { "id": "C", "text": "COPPA" },
+            { "id": "D", "text": "DSA" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "COPPA (Children's Online Privacy Protection Act) sets requirements for websites and online services directed at children under 13.",
+          "tags": ["COPPA", "US law", "child privacy", "minors"]
+        },
+        {
+          "id": "SN_016",
+          "text": "What ethical issue arises from the use of algorithms in social networks?",
+          "options": [
+            { "id": "A", "text": "Increased server costs" },
+            { "id": "B", "text": "Lack of transparency and potential bias" },
+            { "id": "C", "text": "Slower internet speeds" },
+            { "id": "D", "text": "Higher employee turnover" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "A core ethical issue is the lack of transparency in how algorithms work and their potential to amplify bias and misinformation.",
+          "tags": ["ethical issues", "algorithms", "transparency", "bias"]
+        },
+        {
+          "id": "SN_017",
+          "text": "Which responsibility goes beyond legal mandates to include protecting user data and combating disinformation?",
+          "options": [
+            { "id": "A", "text": "Civil Responsibility" },
+            { "id": "B", "text": "Contractual Responsibility" },
+            { "id": "C", "text": "Criminal Responsibility" },
+            { "id": "D", "text": "Ethical and Social Responsibility" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "EASY",
+          "explanation": "Ethical and social responsibility involves voluntary actions to protect users and society, beyond what is legally required.",
+          "tags": ["ethical responsibility", "social responsibility", "voluntary"]
+        },
+        {
+          "id": "SN_018",
+          "text": "What is projected to be a major economic trend in the U.S. creator economy by 2025?",
+          "options": [
+            { "id": "A", "text": "Brands spending $37 billion on advertising" },
+            { "id": "B", "text": "Government takeover of platforms" },
+            { "id": "C", "text": "Elimination of all targeted ads" },
+            { "id": "D", "text": "Shift to purely subscription-based models" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "By 2025, brands are projected to spend approximately $37 billion on creator economy advertising in the U.S.",
+          "tags": ["economic issues", "creator economy", "2025", "advertising"]
+        },
+        {
+          "id": "SN_019",
+          "text": "Which practical case highlighted ethical lapses in the collection and use of personal data?",
+          "options": [
+            { "id": "A", "text": "Viral marketing campaigns" },
+            { "id": "B", "text": "Generative AI misusing user data" },
+            { "id": "C", "text": "Open-source software development" },
+            { "id": "D", "text": "Email phishing scams" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Cases involving generative AI misusing collected user data underscore significant ethical failures in data handling and monetization.",
+          "tags": ["data privacy", "ethical lapse", "generative AI", "case study"]
+        },
+        {
+          "id": "SN_020",
+          "text": "How do algorithms contribute to the spread of misinformation according to 2025 reviews?",
+          "options": [
+            { "id": "A", "text": "By blocking all false content automatically" },
+            { "id": "B", "text": "By amplifying it through cognitive biases and platform mechanics" },
+            { "id": "C", "text": "By charging users for verified information" },
+            { "id": "D", "text": "By reducing the speed of content sharing" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Algorithms are designed to maximize engagement, which often inadvertently promotes misinformation by leveraging human cognitive biases and platform features.",
+          "tags": ["algorithmic bias", "misinformation", "2025", "cognitive bias"]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Ethics in IoT",
+      "icon": "car",
+      "color": "#10B981",
+      "questions": [
+        {
+          "id": "IOT_ETH_001",
+          "text": "What does IoT stand for and what is its core function?",
+          "options": [
+            { "id": "A", "text": "Internet of Technology – To replace human jobs" },
+            { "id": "B", "text": "Internet of Things – To connect devices that collect and exchange data without human input" },
+            { "id": "C", "text": "Integrated Online Technology – To enhance cybersecurity" },
+            { "id": "D", "text": "Intelligent Operating Terminals – To process data locally" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "IoT stands for Internet of Things, a network of interconnected devices that communicate and process data autonomously.",
+          "tags": ["iot", "definition"]
+        },
+        {
+          "id": "IOT_ETH_002",
+          "text": "Which of the following is a major ethical challenge posed by IoT?",
+          "options": [
+            { "id": "A", "text": "Increased manual labor" },
+            { "id": "B", "text": "Reduced internet speeds" },
+            { "id": "C", "text": "Massive collection of sensitive data and privacy risks" },
+            { "id": "D", "text": "Lack of wireless connectivity" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "IoT devices collect vast amounts of personal data, raising significant privacy and surveillance concerns.",
+          "tags": ["iot", "privacy", "ethics"]
+        },
+        {
+          "id": "IOT_ETH_003",
+          "text": "What does the ethical principle of 'transparency' require in IoT systems?",
+          "options": [
+            { "id": "A", "text": "Devices must be physically see-through" },
+            { "id": "B", "text": "Users must understand how their data is processed and used" },
+            { "id": "C", "text": "All software code must be open-source" },
+            { "id": "D", "text": "Manufacturers must disclose their profits" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Transparency means users should be clearly informed about data flows, algorithms, and system functioning.",
+          "tags": ["transparency", "iot ethics"]
+        },
+        {
+          "id": "IOT_ETH_004",
+          "text": "Which legal framework is most directly relevant to data protection in IoT devices in the EU?",
+          "options": [
+            { "id": "A", "text": "SAE J3016" },
+            { "id": "B", "text": "GDPR" },
+            { "id": "C", "text": "UNECE GRVA" },
+            { "id": "D", "text": "ISO 9001" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The General Data Protection Regulation (GDPR) sets strict rules for data privacy and protection in the EU, applicable to IoT.",
+          "tags": ["gdpr", "data protection", "eu"]
+        },
+        {
+          "id": "IOT_ETH_005",
+          "text": "What is a key cybersecurity principle mentioned for IoT in 2025?",
+          "options": [
+            { "id": "A", "text": "Zero Trust" },
+            { "id": "B", "text": "Always Trust" },
+            { "id": "C", "text": "Open Access" },
+            { "id": "D", "text": "Delayed Updates" }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "Zero Trust security models, which assume no implicit trust, are emphasized for IoT systems to prevent unauthorized access.",
+          "tags": ["cybersecurity", "zero trust", "iot"]
+        },
+        {
+          "id": "IOT_ETH_006",
+          "text": "In the context of IoT, what does 'data minimization' refer to?",
+          "options": [
+            { "id": "A", "text": "Using the smallest possible devices" },
+            { "id": "B", "text": "Collecting only the data necessary for a specific purpose" },
+            { "id": "C", "text": "Reducing data storage costs" },
+            { "id": "D", "text": "Limiting internet bandwidth usage" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Data minimization is a privacy principle that involves collecting only the data that is directly relevant and necessary.",
+          "tags": ["data minimization", "privacy", "gdpr"]
+        },
+        {
+          "id": "IOT_ETH_007",
+          "text": "What is the primary ethical dilemma in the 'trolley problem' as applied to autonomous vehicles?",
+          "options": [
+            { "id": "A", "text": "Whether to use electric or gasoline power" },
+            { "id": "B", "text": "How to maximize passenger comfort" },
+            { "id": "C", "text": "Choosing between utilitarian (save most lives) vs. deontological (follow rules) outcomes in unavoidable accidents" },
+            { "id": "D", "text": "Deciding which brand of sensor to use" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The trolley problem highlights the moral conflict between saving the greatest number (utilitarianism) and adhering to moral rules like 'do not kill' (deontology).",
+          "tags": ["trolley problem", "autonomous vehicles", "ethics"]
+        },
+        {
+          "id": "IOT_ETH_008",
+          "text": "Which SAE level of autonomy describes a car that can drive itself under specific conditions but may require human intervention?",
+          "options": [
+            { "id": "A", "text": "Level 1" },
+            { "id": "B", "text": "Level 3" },
+            { "id": "C", "text": "Level 4" },
+            { "id": "D", "text": "Level 5" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "SAE Level 3 is 'conditional automation' – the vehicle drives itself in certain environments but expects the human to take over when needed.",
+          "tags": ["sae levels", "autonomy", "av"]
+        },
+        {
+          "id": "IOT_ETH_009",
+          "text": "Who is most likely to be held liable if a Level 5 autonomous vehicle causes an accident due to a software failure?",
+          "options": [
+            { "id": "A", "text": "The passenger/owner" },
+            { "id": "B", "text": "The vehicle manufacturer" },
+            { "id": "C", "text": "The city where the accident occurred" },
+            { "id": "D", "text": "The other drivers involved" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "In high-autonomy vehicles (Level 4/5), liability often shifts to manufacturers under product liability laws, especially if a system failure is the cause.",
+          "tags": ["liability", "autonomous vehicles", "level 5"]
+        },
+        {
+          "id": "IOT_ETH_010",
+          "text": "What does V2X connectivity in autonomous vehicles enable?",
+          "options": [
+            { "id": "A", "text": "Vehicle-to-vehicle entertainment streaming" },
+            { "id": "B", "text": "Communication with infrastructure, other vehicles, and pedestrians" },
+            { "id": "C", "text": "Voice commands to the driver" },
+            { "id": "D", "text": "Internal Wi-Fi for passengers" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "V2X (Vehicle-to-Everything) allows AVs to communicate with traffic lights, other cars, and even pedestrians' devices for safer coordination.",
+          "tags": ["v2x", "connectivity", "av technology"]
+        },
+        {
+          "id": "IOT_ETH_011",
+          "text": "Which of the following is a social impact concern regarding widespread AV adoption?",
+          "options": [
+            { "id": "A", "text": "Increased need for parking spaces" },
+            { "id": "B", "text": "Job displacement in transportation sectors" },
+            { "id": "C", "text": "Higher vehicle manufacturing costs" },
+            { "id": "D", "text": "Reduced demand for electricity" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Autonomous vehicles could displace jobs for drivers (truck, taxi, delivery), raising ethical concerns about economic inequality.",
+          "tags": ["social impact", "job displacement", "av"]
+        },
+        {
+          "id": "IOT_ETH_012",
+          "text": "What is the purpose of an ethical charter like the Montreal Declaration for Responsible AI in the context of AVs?",
+          "options": [
+            { "id": "A", "text": "To set maximum speed limits for AVs" },
+            { "id": "B", "text": "To promote principles like well-being, autonomy, and equity in AI development" },
+            { "id": "C", "text": "To standardize battery sizes for electric AVs" },
+            { "id": "D", "text": "To mandate specific sensor brands" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "Ethical charters provide guiding principles to ensure AI (and AV) development aligns with human values such as fairness, safety, and transparency.",
+          "tags": ["ethical charters", "montreal declaration", "responsible ai"]
+        },
+        {
+          "id": "IOT_ETH_013",
+          "text": "Which regulatory body in the US provides oversight and reports on autonomous vehicle safety?",
+          "options": [
+            { "id": "A", "text": "FDA" },
+            { "id": "B", "text": "FCC" },
+            { "id": "C", "text": "NHTSA" },
+            { "id": "D", "text": "EPA" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The National Highway Traffic Safety Administration (NHTSA) oversees vehicle safety in the US, including AVs.",
+          "tags": ["nhtsa", "usa regulation", "av safety"]
+        },
+        {
+          "id": "IOT_ETH_014",
+          "text": "What does 'bias in embedded algorithms' in IoT refer to?",
+          "options": [
+            { "id": "A", "text": "Preference for certain brands of hardware" },
+            { "id": "B", "text": "Systematic errors in AI that favor or disadvantage certain groups of people" },
+            { "id": "C", "text": "Slow processing speed in older devices" },
+            { "id": "D", "text": "Use of outdated programming languages" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Algorithmic bias occurs when AI systems produce unfairly skewed results due to prejudiced training data or flawed design, leading to discrimination.",
+          "tags": ["algorithmic bias", "ai ethics", "iot"]
+        },
+        {
+          "id": "IOT_ETH_015",
+          "text": "In ethical IoT design, what does 'equity and access' primarily address?",
+          "options": [
+            { "id": "A", "text": "Making devices in different colors" },
+            { "id": "B", "text": "Ensuring technology is affordable and available to underserved populations" },
+            { "id": "C", "text": "Using equal amounts of data for all users" },
+            { "id": "D", "text": "Balancing battery life across devices" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Equity in IoT focuses on bridging the digital divide so that benefits of technology are accessible to all, regardless of socioeconomic status.",
+          "tags": ["equity", "digital divide", "iot ethics"]
+        },
+        {
+          "id": "IOT_ETH_016",
+          "text": "Which 2025 EU regulation specifically integrates governance for autonomous vehicles?",
+          "options": [
+            { "id": "A", "text": "GDPR" },
+            { "id": "B", "text": "AI Act" },
+            { "id": "C", "text": "Cybersecurity Act" },
+            { "id": "D", "text": "Digital Markets Act" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "The EU's AI Act (effective around 2025) sets harmonized rules for AI systems, including those used in autonomous vehicles.",
+          "tags": ["ai act", "eu regulation", "av governance"]
+        },
+        {
+          "id": "IOT_ETH_017",
+          "text": "What is a 'robotaxi pilot' as mentioned in the chapter?",
+          "options": [
+            { "id": "A", "text": "A self-flying taxi drone" },
+            { "id": "B", "text": "A real-world test of autonomous ride-hailing services" },
+            { "id": "C", "text": "A video game about futuristic taxis" },
+            { "id": "D", "text": "A pilot program for human taxi drivers" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "A robotaxi pilot is a controlled, real-world deployment of autonomous vehicles for public ride-hailing, like Nissan's 2025 test in Japan.",
+          "tags": ["robotaxi", "pilot projects", "av testing"]
+        },
+        {
+          "id": "IOT_ETH_018",
+          "text": "How do international standards like ISO contribute to AV safety?",
+          "options": [
+            { "id": "A", "text": "By setting global speed limits" },
+            { "id": "B", "text": "By providing universal cybersecurity and functional safety frameworks" },
+            { "id": "C", "text": "By mandating specific AI algorithms" },
+            { "id": "D", "text": "By requiring all AVs to be electric" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "ISO standards (e.g., ISO 21434 for cybersecurity) provide internationally recognized guidelines to ensure AVs are safe and secure by design.",
+          "tags": ["iso standards", "av safety", "cybersecurity"]
+        },
+        {
+          "id": "IOT_ETH_019",
+          "text": "What is the 'digital divide' in the context of IoT ethics?",
+          "options": [
+            { "id": "A", "text": "A gap in digital screen quality" },
+            { "id": "B", "text": "The difference between 4G and 5G networks" },
+            { "id": "C", "text": "The inequality in access to technology and the internet between different groups" },
+            { "id": "D", "text": "A divide between software and hardware engineers" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "The digital divide refers to the gap between those who have access to modern information technology and those who do not, often due to economic or geographic factors.",
+          "tags": ["digital divide", "equity", "iot ethics"]
+        },
+        {
+          "id": "IOT_ETH_020",
+          "text": "Why is anonymity important in smart city IoT applications?",
+          "options": [
+            { "id": "A", "text": "To reduce data storage costs" },
+            { "id": "B", "text": "To protect individual privacy when collecting pedestrian or traffic data" },
+            { "id": "C", "text": "To improve wireless signal strength" },
+            { "id": "D", "text": "To comply with advertising regulations" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Anonymizing data (removing personally identifiable information) is a key privacy measure to prevent surveillance and misuse in public IoT systems.",
+          "tags": ["anonymity", "smart city", "privacy"]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "The Digital Revolution: Concepts & Challenges",
+      "icon": "cpu",
+      "color": "#8B5CF6",
+      "questions": [
+        {
+          "id": "DIGI_001",
+          "text": "What is the core definition of the Digital Revolution?",
+          "options": [
+            { "id": "A", "text": "The invention of the personal computer." },
+            { "id": "B", "text": "The profound societal upheaval driven by widespread adoption of digital technologies." },
+            { "id": "C", "text": "The shift from coal to electricity in industry." },
+            { "id": "D", "text": "The creation of the World Wide Web." }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "The Digital Revolution is broadly defined as the deep transformation of societies due to the mass integration of digital tools, moving from analog to digital systems.",
+          "tags": ["definition", "digital-revolution"]
+        },
+        {
+          "id": "DIGI_002",
+          "text": "Which characteristic of the Digital Revolution refers to the conversion of analog information into binary formats?",
+          "options": [
+            { "id": "A", "text": "Automation" },
+            { "id": "B", "text": "Interconnectivity" },
+            { "id": "C", "text": "Digitization" },
+            { "id": "D", "text": "Data Explosion" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "Digitization is the fundamental process of converting analog signals (text, sound, image) into digital data (bits and bytes) for storage and processing.",
+          "tags": ["characteristics", "digitization"]
+        },
+        {
+          "id": "DIGI_003",
+          "text": "The massive increase in data volume generated and analyzed is best termed as:",
+          "options": [
+            { "id": "A", "text": "Data Mining" },
+            { "id": "B", "text": "Cloud Computing" },
+            { "id": "C", "text": "Big Data" },
+            { "id": "D", "text": "Data Encryption" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "EASY",
+          "explanation": "'Big Data' refers to the exponential growth in the volume, velocity, and variety of data, a key characteristic of the digital age.",
+          "tags": ["characteristics", "big-data"]
+        },
+        {
+          "id": "DIGI_004",
+          "text": "Which period is associated with the democratization of computing through the introduction of personal computers (PCs)?",
+          "options": [
+            { "id": "A", "text": "1940-1960" },
+            { "id": "B", "text": "1970" },
+            { "id": "C", "text": "1980" },
+            { "id": "D", "text": "1990" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The 1980s saw the rise of personal computers like the IBM PC and Apple Macintosh, making computing accessible to the general public.",
+          "tags": ["history", "evolution-stages"]
+        },
+        {
+          "id": "DIGI_005",
+          "text": "The development of the World Wide Web, revolutionizing global communication, is a key milestone of which decade?",
+          "options": [
+            { "id": "A", "text": "1970" },
+            { "id": "B", "text": "1980" },
+            { "id": "C", "text": "1990" },
+            { "id": "D", "text": "2000" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "While invented in 1989, the World Wide Web became a widespread public phenomenon in the 1990s with the first web browsers and portals.",
+          "tags": ["history", "internet"]
+        },
+        {
+          "id": "DIGI_006",
+          "text": "Which Industrial Revolution first introduced computing and automation as pivotal elements?",
+          "options": [
+            { "id": "A", "text": "First Industrial Revolution" },
+            { "id": "B", "text": "Second Industrial Revolution" },
+            { "id": "C", "text": "Third Industrial Revolution" },
+            { "id": "D", "text": "Fourth Industrial Revolution" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The Third Industrial Revolution (mid-20th century) is defined by the rise of computers, electronics, and early automation, with the Internet as a key development.",
+          "tags": ["industrial-revolutions", "context"]
+        },
+        {
+          "id": "DIGI_007",
+          "text": "Industry 4.0, or the current Digital Revolution, is characterized by the fusion of:",
+          "options": [
+            { "id": "A", "text": "Steam power and mechanical looms." },
+            { "id": "B", "text": "Electricity and assembly lines." },
+            { "id": "C", "text": "Computing and basic automation." },
+            { "id": "D", "text": "Digital technologies, AI, and the Internet of Things (IoT)." }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "MEDIUM",
+          "explanation": "The Fourth Industrial Revolution (Industry 4.0) merges digital, biological, and physical systems, heavily relying on AI, IoT, and smart, connected factories.",
+          "tags": ["industry-4.0", "characteristics"]
+        },
+        {
+          "id": "DIGI_008",
+          "text": "Which of the following is an example of a social challenge posed by the Digital Revolution?",
+          "options": [
+            { "id": "A", "text": "Rise of e-waste" },
+            { "id": "B", "text": "Algorithmic bias in hiring" },
+            { "id": "C", "text": "The digital divide" },
+            { "id": "D", "text": "High energy consumption of data centers" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "The digital divide is a major social challenge, referring to inequalities in access to technology and the internet, which can lead to social and educational exclusion.",
+          "tags": ["challenges", "social"]
+        },
+        {
+          "id": "DIGI_009",
+          "text": "What is a primary environmental challenge associated with the digital infrastructure?",
+          "options": [
+            { "id": "A", "text": "Creation of new professions like data scientists" },
+            { "id": "B", "text": "The spread of disinformation on social media" },
+            { "id": "C", "text": "Significant energy consumption by data centers" },
+            { "id": "D", "text": "Automation transforming the labor market" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "Data centers that power cloud computing, streaming, and online services consume vast amounts of electricity, contributing to the digital carbon footprint.",
+          "tags": ["challenges", "environmental"]
+        },
+        {
+          "id": "DIGI_010",
+          "text": "The 2018 Facebook-Cambridge Analytica scandal is a prime example of which ethical challenge?",
+          "options": [
+            { "id": "A", "text": "Algorithmic Bias" },
+            { "id": "B", "text": "Digital Divide" },
+            { "id": "C", "text": "Electronic Waste" },
+            { "id": "D", "text": "Privacy Violation" }
+          ],
+          "correctAnswerId": "D",
+          "difficulty": "MEDIUM",
+          "explanation": "The scandal involved the unauthorized harvesting and use of personal data from millions of Facebook users, highlighting massive privacy risks.",
+          "tags": ["challenges", "ethical", "privacy"]
+        },
+        {
+          "id": "DIGI_011",
+          "text": "When an AI recruiting tool favors male candidates because it was trained on historical data from a male-dominated industry, this demonstrates:",
+          "options": [
+            { "id": "A", "text": "The digital divide." },
+            { "id": "B", "text": "Algorithmic bias." },
+            { "id": "C", "text": "Effective automation." },
+            { "id": "D", "text": "Predictive policing." }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "Algorithmic bias occurs when AI systems perpetuate or amplify existing societal prejudices due to biased training data or flawed model design.",
+          "tags": ["challenges", "ethical", "ai-bias"]
+        },
+        {
+          "id": "DIGI_012",
+          "text": "Which application domain of the Digital Revolution is exemplified by the use of 'digital twins' in manufacturing?",
+          "options": [
+            { "id": "A", "text": "Healthcare" },
+            { "id": "B", "text": "Education" },
+            { "id": "C", "text": "Industry" },
+            { "id": "D", "text": "Communication" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Digital twins are virtual replicas of physical assets or processes used in Industry 4.0 to simulate, analyze, and optimize manufacturing operations in real-time.",
+          "tags": ["applications", "industry-4.0"]
+        },
+        {
+          "id": "DIGI_013",
+          "text": "The principle that AI systems should be designed to augment human decision-making rather than replace human agency entirely speaks to which ethical concern?",
+          "options": [
+            { "id": "A", "text": "Privacy" },
+            { "id": "B", "text": "Transparency" },
+            { "id": "C", "text": "The Human Role" },
+            { "id": "D", "text": "Social Acceptability" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Preserving 'The Human Role' is a key ethical challenge, ensuring that humans remain in control, accountable, and that technology enhances rather than diminishes human capabilities.",
+          "tags": ["challenges", "ethical", "human-agency"]
+        },
+        {
+          "id": "DIGI_014",
+          "text": "Why is ethical reflection considered essential in the context of AI and the Digital Revolution?",
+          "options": [
+            { "id": "A", "text": "Because it slows down technological progress to a safer pace." },
+            { "id": "B", "text": "Because AI's central role amplifies both benefits and risks, impacting human rights and social stability." },
+            { "id": "C", "text": "Because ethics is a legal requirement for all software development." },
+            { "id": "D", "text": "Because it is primarily a public relations concern for tech companies." }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "AI is a transformative force at the core of the digital revolution. Without ethical guidelines, its power can lead to significant harm, making proactive ethical reflection crucial.",
+          "tags": ["ethics", "ai", "importance"]
+        },
+        {
+          "id": "DIGI_015",
+          "text": "Tools like the EU's AI Act and UNESCO's ethical recommendations are examples of what?",
+          "options": [
+            { "id": "A", "text": "Technological innovations" },
+            { "id": "B", "text": "Economic challenges" },
+            { "id": "C", "text": "Legal and moral frameworks" },
+            { "id": "D", "text": "Social media policies" }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "MEDIUM",
+          "explanation": "These are frameworks designed to create boundaries and principles (both legal and ethical) to govern the development and use of AI, balancing innovation with public protection.",
+          "tags": ["ethics", "governance", "ai-act"]
+        },
+        {
+          "id": "DIGI_016",
+          "text": "Which of the following is an economic challenge specifically related to automation?",
+          "options": [
+            { "id": "A", "text": "The need for workforce retraining and reskilling." },
+            { "id": "B", "text": "Increased energy consumption." },
+            { "id": "C", "text": "The spread of fake news." },
+            { "id": "D", "text": "Collection of personal data by corporations." }
+          ],
+          "correctAnswerId": "A",
+          "difficulty": "MEDIUM",
+          "explanation": "While automation boosts productivity, it disrupts the labor market by displacing certain jobs, creating a critical need for retraining programs to transition workers into new roles.",
+          "tags": ["challenges", "economic", "automation"]
+        },
+        {
+          "id": "DIGI_017",
+          "text": "What does 'interconnectivity' in the Digital Revolution primarily refer to?",
+          "options": [
+            { "id": "A", "text": "Using robots to assemble cars." },
+            { "id": "B", "text": "Networks like the IoT enabling devices and systems to communicate." },
+            { "id": "C", "text": "Converting paper records to digital files." },
+            { "id": "D", "text": "Using data to train AI algorithms." }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "EASY",
+          "explanation": "Interconnectivity is the networking of devices, machines, and people through the Internet and the Internet of Things (IoT), creating a seamlessly connected ecosystem.",
+          "tags": ["characteristics", "interconnectivity", "iot"]
+        },
+        {
+          "id": "DIGI_018",
+          "text": "Precision farming in agriculture, which uses sensors and data analytics, is an application of the Digital Revolution that primarily leverages:",
+          "options": [
+            { "id": "A", "text": "Only digitization." },
+            { "id": "B", "text": "Only automation." },
+            { "id": "C", "text": "A combination of digitization, data, and interconnectivity." },
+            { "id": "D", "text": "Primarily social media platforms." }
+          ],
+          "correctAnswerId": "C",
+          "difficulty": "HARD",
+          "explanation": "Precision farming integrates multiple digital characteristics: digitization (converting soil/weather data), data explosion (analyzing vast datasets), and interconnectivity (IoT sensors in fields).",
+          "tags": ["applications", "agriculture", "characteristics"]
+        },
+        {
+          "id": "DIGI_019",
+          "text": "The question of liability in an accident involving an autonomous vehicle highlights which key ethical challenge?",
+          "options": [
+            { "id": "A", "text": "Privacy" },
+            { "id": "B", "text": "Responsibility and Transparency" },
+            { "id": "C", "text": "Manipulation" },
+            { "id": "D", "text": "The Digital Divide" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "HARD",
+          "explanation": "This challenge involves determining accountability (responsibility) for decisions made by AI systems and requires clarity (transparency) in how those decisions are reached.",
+          "tags": ["challenges", "ethical", "accountability"]
+        },
+        {
+          "id": "DIGI_020",
+          "text": "Which historical stage in digital evolution was marked by the invention of the microprocessor, making computers smaller and more affordable?",
+          "options": [
+            { "id": "A", "text": "First Computers (1940-1960)" },
+            { "id": "B", "text": "Microprocessors (1970)" },
+            { "id": "C", "text": "Democratization of Computing (1980)" },
+            { "id": "D", "text": "Internet (1990)" }
+          ],
+          "correctAnswerId": "B",
+          "difficulty": "MEDIUM",
+          "explanation": "The invention of the microprocessor, like Intel's 4004 in 1971, was the key technological breakthrough that enabled the creation of smaller, cheaper, and more powerful computers.",
+          "tags": ["history", "evolution-stages", "microprocessor"]
+        }
+      ]
     }
   ]
 }
